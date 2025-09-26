@@ -1,0 +1,3921 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PatientStudy StudyType="PSG" State="New" EncryptionType="3" Version="6" xmlns:ce="http://www.respironics.com/CustomEventTypeDefs.xsd" xmlns:ac="http://www.respironics.com/AcquisitionCommentDefs.xsd" xmlns:ao="http://www.respironics.com/AnalysisOptions.xsd" xmlns:rc="http://www.respironics.com/ReportCalcOptions.xsd" xmlns:ef="http://www.respironics.com/EventFilters.xsd" xmlns="http://www.respironics.com/PatientStudy.xsd">
+   <Patient PatientType="Adult">
+      <DatabaseGUID>3095d7da-b092-4bcf-a66b-b20ce27575a0</DatabaseGUID>
+      <PatientDBID>1187</PatientDBID>
+      <PatientID>ew4xrHIZihMPHJXRrPFNQQ==</PatientID>
+      <ContactInfo>
+         <FirstName />
+         <LastName />
+         <MiddleName />
+         <Address />
+         <Address2 />
+         <City />
+         <State />
+         <ZipCode />
+         <Phone />
+         <Phone2 />
+         <Fax />
+         <Email />
+      </ContactInfo>
+      <BirthDate>o215d2tLoKRWMRnQbhqFiw==</BirthDate>
+      <Gender>Male</Gender>
+   </Patient>
+   <ChannelConfig>
+      <ConfigName>LDxS_PSG_AASM-C3-C4</ConfigName>
+      <Channels>
+         <Channel EdfSignal="0" UseForAnalysis="false">
+            <Label>M1M2</Label>
+         </Channel>
+         <Channel EdfSignal="1" UseForAnalysis="true">
+            <Label>C3M2</Label>
+         </Channel>
+         <Channel EdfSignal="2" UseForAnalysis="true">
+            <Label>C4M1</Label>
+         </Channel>
+         <Channel EdfSignal="3" UseForAnalysis="true">
+            <Label>LEOGM2</Label>
+         </Channel>
+         <Channel EdfSignal="4" UseForAnalysis="true">
+            <Label>REOGM2</Label>
+         </Channel>
+         <Channel EdfSignal="5" UseForAnalysis="true">
+            <Label>CEMG</Label>
+         </Channel>
+         <Channel EdfSignal="6" UseForAnalysis="true">
+            <Label>LEG1</Label>
+         </Channel>
+         <Channel EdfSignal="7" UseForAnalysis="true">
+            <Label>LEG2</Label>
+         </Channel>
+         <Channel EdfSignal="8" UseForAnalysis="true">
+            <Label>ECG1</Label>
+         </Channel>
+         <Channel EdfSignal="9" UseForAnalysis="true">
+            <Label>rr</Label>
+         </Channel>
+         <Channel EdfSignal="10" UseForAnalysis="true">
+            <Label>MSnore</Label>
+         </Channel>
+         <Channel EdfSignal="11" UseForAnalysis="true">
+            <Label>TFlow</Label>
+         </Channel>
+         <Channel EdfSignal="12" UseForAnalysis="true">
+            <Label>CanFlow</Label>
+         </Channel>
+         <Channel EdfSignal="13" UseForAnalysis="true">
+            <Label>THO</Label>
+         </Channel>
+         <Channel EdfSignal="14" UseForAnalysis="true">
+            <Label>ABD</Label>
+         </Channel>
+         <Channel EdfSignal="15" UseForAnalysis="true">
+            <Label>SpO2</Label>
+         </Channel>
+         <Channel EdfSignal="16" UseForAnalysis="true">
+            <Label>Pleth</Label>
+         </Channel>
+         <Channel EdfSignal="17" UseForAnalysis="true">
+            <Label>Body</Label>
+         </Channel>
+         <Channel EdfSignal="18" UseForAnalysis="true">
+            <Label>PulseR</Label>
+         </Channel>
+         <Channel EdfSignal="19" UseForAnalysis="false">
+            <Label>P-Check </Label>
+         </Channel>
+         <Channel EdfSignal="20" UseForAnalysis="false">
+            <Label>ECG-HF</Label>
+         </Channel>
+         <Channel EdfSignal="21" UseForAnalysis="true">
+            <Label>imp</Label>
+         </Channel>
+      </Channels>
+   </ChannelConfig>
+   <Acquisition>
+      <AcqNumber>1178</AcqNumber>
+      <Device DeviceType="Alice6LDx">
+         <SerialNumber>100507</SerialNumber>
+      </Device>
+      <Sessions>
+         <Session>
+            <RecordingStart>2019-09-20T22:11:03</RecordingStart>
+            <Duration>14849</Duration>
+            <LightsOff>0</LightsOff>
+            <Segments>
+               <Segment>
+                  <StartTime>2019-09-20T22:11:03</StartTime>
+                  <Duration>3600</Duration>
+               </Segment>
+               <Segment>
+                  <StartTime>2019-09-20T23:11:03</StartTime>
+                  <Duration>3600</Duration>
+               </Segment>
+               <Segment>
+                  <StartTime>2019-09-21T00:11:03</StartTime>
+                  <Duration>3600</Duration>
+               </Segment>
+               <Segment>
+                  <StartTime>2019-09-21T01:11:03</StartTime>
+                  <Duration>3600</Duration>
+               </Segment>
+               <Segment>
+                  <StartTime>2019-09-21T02:11:03</StartTime>
+                  <Duration>449</Duration>
+               </Segment>
+            </Segments>
+         </Session>
+      </Sessions>
+   </Acquisition>
+   <CustomEventTypeDefs />
+   <AcquisitionCommentDefs />
+   <ScoringData>
+      <LastModified>2019-09-25T11:13:17</LastModified>
+      <Events>
+         <Event Family="User" Type="Gain" Start="0" Duration="0" Machine="true" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="8" EdfSignal="5" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="0" Duration="0" Machine="true" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="8" EdfSignal="6" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="0" Duration="0" Machine="true" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="8" EdfSignal="7" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="0" Duration="0" Machine="true" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="8" EdfSignal="8" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="0" Duration="0" Machine="true" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="8" EdfSignal="10" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="0" Duration="0" Machine="true" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="8" EdfSignal="11" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="0" Duration="0" Machine="true" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="8" EdfSignal="12" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="0" Duration="0" Machine="true" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="8" EdfSignal="13" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="0" Duration="0" Machine="true" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="8" EdfSignal="14" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="0" Duration="6" Machine="true">
+            <ChannelFail EdfSignal="15" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="0" Duration="6" Machine="true">
+            <ChannelFail EdfSignal="18" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="12" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="4" EdfSignal="5" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="16" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="4" EdfSignal="12" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="19" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="4" EdfSignal="11" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="23" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="5" EdfSignal="13" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="26" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="5" EdfSignal="14" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="29" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="4" EdfSignal="8" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="33" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="4" EdfSignal="6" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="36" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="4" EdfSignal="7" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="53" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="2" EdfSignal="11" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="62" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="3" EdfSignal="7" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="67" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="6" EdfSignal="13" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="71" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="1" EdfSignal="11" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="690.5" Duration="5" />
+         <Event Family="Neuro" Type="Arousal" Start="796" Duration="4.5" />
+         <Event Family="Neuro" Type="Arousal" Start="862.5" Duration="4.5" />
+         <Event Family="Neuro" Type="Arousal" Start="926.5" Duration="3.5" />
+         <Event Family="Neuro" Type="Arousal" Start="990" Duration="4" />
+         <Event Family="User" Type="ChannelFail" Start="1189" Duration="40" Machine="true">
+            <ChannelFail EdfSignal="2" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="1198" Duration="5" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="1198" Duration="5" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="Cardiac" Type="Tachycardia" Start="1199" Duration="5" Machine="true">
+            <HRBefore>75</HRBefore>
+            <HRExtreme>103</HRExtreme>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="1208" Duration="6" Machine="true">
+            <HRBefore>84</HRBefore>
+            <HRExtreme>68</HRExtreme>
+            <O2Before>94</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="Hypopnea" Start="1384.5" Duration="11">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>69</HRExtreme>
+            <O2Before>93</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="1524.5" Duration="11.5" Machine="true" />
+         <Event Family="Respiratory" Type="MixedApnea" Start="1597.5" Duration="10.5">
+            <HRBefore>72</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>93</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="1611.5" Duration="4" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="1615" Duration="9" Machine="true">
+            <HRBefore>73</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>94</O2Before>
+            <O2Min>89</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="Hypopnea" Start="1633" Duration="14.5">
+            <HRBefore>71</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>94</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>0</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="1649.5" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="1657" Duration="20" Machine="true">
+            <HRBefore>70</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>94</O2Before>
+            <O2Min>90</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="1665" Duration="17">
+            <HRBefore>72</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="1686.5" Duration="4.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="1689" Duration="18" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>90</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="MixedApnea" Start="1704.5" Duration="14.5">
+            <HRBefore>70</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>4</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="1722" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="1731" Duration="20" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="1752" Duration="12">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>87</O2Min>
+            <HRIncreaseAfter>7</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="1769.5" Duration="4" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="1770" Duration="19" Machine="true">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="MixedApnea" Start="1777" Duration="21">
+            <HRBefore>71</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>87</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="1799.5" Duration="4" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="1801" Duration="30" Machine="true">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>87</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="CentralApnea" Start="1825.5" Duration="10">
+            <HRBefore>71</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>8</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="1837" Duration="3.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="1849" Duration="15">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>3</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="1863.5" Duration="4" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="1869" Duration="4" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="1875" Duration="17" Machine="true">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>89</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="1883.5" Duration="11">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>10</HRIncreaseAfter>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="1890" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="11" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="1898" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="1904" Duration="17" Machine="true">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>90</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="Hypopnea" Start="1909" Duration="10">
+            <HRBefore>70</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>84</O2Min>
+            <HRIncreaseAfter>7</HRIncreaseAfter>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="1931" Duration="21">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>84</O2Min>
+            <HRIncreaseAfter>-1</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="1949" Duration="35" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>84</O2Min>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="1950" Duration="60" Machine="true">
+            <ChannelFail EdfSignal="11" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="1953.5" Duration="3.5" />
+         <Event Family="Respiratory" Type="MixedApnea" Start="1971" Duration="17">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>84</O2Min>
+            <HRIncreaseAfter>10</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="1989" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="1994" Duration="17" Machine="true">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="MixedApnea" Start="2003" Duration="10">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="2014.5" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2019" Duration="4" Machine="true">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2021.5" Duration="13">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>8</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2034.5" Duration="5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="2036" Duration="2.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2042" Duration="11" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2046" Duration="4.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="2059.5" Duration="3" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2064.5" Duration="17">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>8</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2083" Duration="4.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="2083.5" Duration="2.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2084" Duration="12" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>94</O2Before>
+            <O2Min>90</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2093.5" Duration="11.5">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="2106.5" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2111" Duration="12" Machine="true">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2144.5" Duration="8" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="2148.5" Duration="2.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2153" Duration="13.5">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2172" Duration="12" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="2172.5" Duration="3" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="2182.5" Duration="12">
+            <HRBefore>71</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2194" Duration="3.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="2197" Duration="3" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2211.5" Duration="10.5">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>88</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="2224.5" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2225" Duration="18" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>90</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2229.5" Duration="7.5" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2245.5" Duration="17.5">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>88</O2Min>
+            <HRIncreaseAfter>10</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2263" Duration="31" Machine="true">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>56</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>88</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="2265" Duration="3.5" />
+         <Event Family="User" Type="ChannelFail" Start="2280" Duration="180" Machine="true">
+            <ChannelFail EdfSignal="11" />
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2283.5" Duration="18.5">
+            <HRBefore>71</HRBefore>
+            <HRExtreme>56</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>88</O2Min>
+            <HRIncreaseAfter>0</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2303" Duration="4.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="2306" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2311" Duration="17" Machine="true">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>90</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2314.5" Duration="4" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2328.5" Duration="14.5">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>88</O2Min>
+            <HRIncreaseAfter>8</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="2345" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2348" Duration="17" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2369.5" Duration="15.5">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>88</O2Min>
+            <HRIncreaseAfter>11</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2381" Duration="4" Machine="true" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2385" Duration="29" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>88</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="2387.5" Duration="3" />
+         <Event Family="Respiratory" Type="MixedApnea" Start="2404" Duration="16">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>7</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2421" Duration="14" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="2422" Duration="2.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2425" Duration="16" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2434.5" Duration="11">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>7</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="2449.5" Duration="3" />
+         <Event Family="Nasal" Type="Snore" Start="2451.5" Duration="4" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2457" Duration="17.5">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2473" Duration="4" Machine="true" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2475" Duration="29" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>89</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="2477.5" Duration="3" />
+         <Event Family="Neuro" Type="Arousal" Start="2505.5" Duration="2.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2511.5" Duration="12.5">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>8</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="2526" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2529" Duration="16" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2533.5" Duration="10">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>8</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2536" Duration="7" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="2546" Duration="3" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2556.5" Duration="14.5">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2571.5" Duration="11.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="2573.5" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2575" Duration="18" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2598.5" Duration="13">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>8</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2602" Duration="13" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>94</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="2610" Duration="990" Machine="true">
+            <ChannelFail EdfSignal="11" />
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2614.5" Duration="8" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="2624.5" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="2628.5" Duration="4" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2634" Duration="14.5">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2647.5" Duration="4.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="2650" Duration="4" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2656" Duration="9" Machine="true">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2665" Duration="13">
+            <HRBefore>70</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>7</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="2680.5" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2689" Duration="12" Machine="true">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="Hypopnea" Start="2690" Duration="12.5">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>11</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2690" Duration="25.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="2705" Duration="4" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2716" Duration="19">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2732.5" Duration="4" Machine="true" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2736" Duration="26" Machine="true">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>89</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="2739.5" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="2747" Duration="8.5" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="2761" Duration="11.5">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>4</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="2774.5" Duration="2.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2778" Duration="7" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="Hypopnea" Start="2781" Duration="12">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>7</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2790.5" Duration="7.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="2795" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2800" Duration="21" Machine="true">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>94</O2Before>
+            <O2Min>90</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2811" Duration="18.5">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>12</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="2832.5" Duration="4" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2834" Duration="24" Machine="true">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>90</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2837" Duration="3.5" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2846" Duration="12.5">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="2861.5" Duration="2.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2870" Duration="15.5">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="2887.5" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2891" Duration="20" Machine="true">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2914.5" Duration="10">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>10</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="2926.5" Duration="3" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2936" Duration="15">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2948" Duration="24" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2952" Duration="10" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="2953" Duration="2.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="2964.5" Duration="18.5">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="2984.5" Duration="17" Machine="true" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="2986" Duration="20" Machine="true">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="2986.5" Duration="3" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3000.5" Duration="10">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>10</HRIncreaseAfter>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3020.5" Duration="15">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="3020.5" Duration="3.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="3036.5" Duration="9" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="3037" Duration="2.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3039" Duration="19" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>94</O2Before>
+            <O2Min>89</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3046.5" Duration="21">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>8</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="3068.5" Duration="10.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="3071" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3072" Duration="19" Machine="true">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3081" Duration="24">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3105" Duration="23" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>90</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="3106.5" Duration="4.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="3107.5" Duration="3.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3114" Duration="19">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="3124" Duration="10.5" Machine="true" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3134" Duration="15" Machine="true">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>89</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="3136" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="3143" Duration="8" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3161.5" Duration="15.5">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="3177" Duration="14.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="3179" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3182" Duration="23" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>90</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3193.5" Duration="22">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>11</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3218" Duration="12" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>94</O2Before>
+            <O2Min>89</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="3218" Duration="3.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3242" Duration="30.5">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3259" Duration="24" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>90</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="3261.5" Duration="3.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="3271.5" Duration="3.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="3276" Duration="3.5" />
+         <Event Family="Neuro" Type="Arousal" Start="3308" Duration="2.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3313" Duration="19.5">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>88</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3334" Duration="31" Machine="true">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>88</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="3335" Duration="3" />
+         <Event Family="Nasal" Type="Snore" Start="3337" Duration="4" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="3349.5" Duration="3.5" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3356.5" Duration="24">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>4</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3378" Duration="31" Machine="true">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>89</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="3384" Duration="3.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="3388.5" Duration="3.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3397" Duration="20">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>8</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3421" Duration="23" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="3427.5" Duration="4" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="3450.5" Duration="10.5">
+            <HRBefore>75</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>13</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="3461.5" Duration="3.5" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="3482" Duration="14.5">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>99</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>10</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3498" Duration="22" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="3498.5" Duration="3.5" />
+         <Event Family="Neuro" Type="Arousal" Start="3524.5" Duration="3.5" />
+         <Event Family="User" Type="Gain" Start="3525" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="3" EdfSignal="14" />
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3532.5" Duration="13.5">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>11</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3544" Duration="29" Machine="true">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="3548" Duration="3.5" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="3560" Duration="14.5">
+            <HRBefore>70</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>11</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="3564" Duration="5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="3577.5" Duration="4" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3598" Duration="17">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>11</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3616" Duration="21" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="3618" Duration="3.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3641.5" Duration="21.5">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>14</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="3665.5" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3667" Duration="21" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="3689.5" Duration="10.5" Machine="true" />
+         <Event Family="User" Type="ChannelFail" Start="3690" Duration="270" Machine="true">
+            <ChannelFail EdfSignal="11" />
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3702.5" Duration="11.5">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>7</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3713" Duration="22" Machine="true">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="3716" Duration="3" />
+         <Event Family="Nasal" Type="Snore" Start="3720" Duration="4.5" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3725.5" Duration="23.5">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>3</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="3743.5" Duration="14" Machine="true" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3748" Duration="26" Machine="true">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>90</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="3751.5" Duration="3.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3765.5" Duration="23">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3788" Duration="25" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="3789" Duration="10.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="3791.5" Duration="3.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3802" Duration="11.5">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>13</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="3815.5" Duration="4" />
+         <Event Family="Respiratory" Type="MixedApnea" Start="3829" Duration="25">
+            <HRBefore>71</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="3854.5" Duration="4" Machine="true" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3855" Duration="25" Machine="true">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>90</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="3855" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="3860.5" Duration="4" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3883.5" Duration="11">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="3890.5" Duration="16.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="3897" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3903" Duration="10" Machine="true">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>67</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3908" Duration="16.5">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>21</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="3917.5" Duration="6.5" Machine="true" />
+         <Event Family="User" Type="Gain" Start="3918" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="2" EdfSignal="6" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="3921" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="2" EdfSignal="7" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="3927.5" Duration="5.5" />
+         <Event Family="User" Type="ChannelFail" Start="3929" Duration="33" Machine="true">
+            <ChannelFail EdfSignal="1" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="3930" Duration="32" Machine="true">
+            <ChannelFail EdfSignal="2" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="3931" Duration="8" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="3931" Duration="8" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3940" Duration="3" Machine="true">
+            <HRBefore>80</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>92</O2Before>
+            <O2Min>89</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="3956.5" Duration="4.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3963.5" Duration="13.5">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>11</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="3977.5" Duration="7.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="3979" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="3982" Duration="18" Machine="true">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="3999.5" Duration="17">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="4015" Duration="31" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="4016" Duration="7" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="4018.5" Duration="2.5" />
+         <Event Family="User" Type="ChannelFail" Start="4020" Duration="60" Machine="true">
+            <ChannelFail EdfSignal="11" />
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="4031.5" Duration="24.5" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4040" Duration="25.5">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="4057" Duration="29" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="4063" Duration="3.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="4069" Duration="3" />
+         <Event Family="Nasal" Type="Snore" Start="4078" Duration="4" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="4088.5" Duration="7.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="4109.5" Duration="7" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="4116.5" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="4122.5" Duration="4" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="4132.5" Duration="4.5" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4135.5" Duration="11.5">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>7</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="4148.5" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="4151" Duration="11" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="4155.5" Duration="24" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="4157.5" Duration="10.5">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="4169.5" Duration="4" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4179" Duration="12.5">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="4192.5" Duration="5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="4193.5" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="4197" Duration="24" Machine="true">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4218.5" Duration="12.5">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>4</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="4232.5" Duration="4" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="4237" Duration="13" Machine="true">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="4241" Duration="11.5" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4259" Duration="16">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>8</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="4273" Duration="17" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="4277.5" Duration="4" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4293" Duration="11.5">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="4300" Duration="21.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="4306.5" Duration="2.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4310.5" Duration="15">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>10</HRIncreaseAfter>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="4320" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="11" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="4328.5" Duration="4" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4342" Duration="16">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="4355.5" Duration="22.5" Machine="true" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="4360" Duration="17" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>68</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="4360.5" Duration="3.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4378" Duration="11">
+            <HRBefore>71</HRBefore>
+            <HRExtreme>68</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="4385.5" Duration="3.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="4391" Duration="3" />
+         <Event Family="Nasal" Type="Snore" Start="4395" Duration="8" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="4413" Duration="11.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="4415" Duration="2.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4419.5" Duration="17.5">
+            <HRBefore>72</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>94</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>14</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="4434.5" Duration="23" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="4438.5" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="4442" Duration="20" Machine="true">
+            <HRBefore>71</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4457" Duration="29">
+            <HRBefore>76</HRBefore>
+            <HRExtreme>66</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>10</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="4483" Duration="4.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="4494" Duration="4" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="4495" Duration="13" Machine="true">
+            <HRBefore>70</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="Hypopnea" Start="4512.5" Duration="16">
+            <HRBefore>80</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="4528" Duration="19.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="4529.5" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="4531" Duration="21" Machine="true">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="Hypopnea" Start="4548.5" Duration="13.5">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>3</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="4559" Duration="7.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="4563" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="4567" Duration="16" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>94</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="4572.5" Duration="5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="4579.5" Duration="24.5" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4608" Duration="16">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>88</O2Min>
+            <HRIncreaseAfter>11</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="4621" Duration="29" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>88</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="4626.5" Duration="4" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4640.5" Duration="10.5">
+            <HRBefore>71</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>88</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="4653.5" Duration="4" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4671.5" Duration="15.5">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="4688" Duration="20" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="4688.5" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="4690" Duration="10.5" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4700" Duration="13.5">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>88</O2Min>
+            <HRIncreaseAfter>-1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="4715" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="4720.5" Duration="3.5" Machine="true" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="4727" Duration="20" Machine="true">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4733" Duration="22">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>88</O2Min>
+            <HRIncreaseAfter>4</HRIncreaseAfter>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="4740" Duration="90" Machine="true">
+            <ChannelFail EdfSignal="11" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="4757.5" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="4767" Duration="9" Machine="true">
+            <HRBefore>62</HRBefore>
+            <HRExtreme>68</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>88</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="4777.5" Duration="3.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4785.5" Duration="12.5">
+            <HRBefore>70</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>87</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="4800" Duration="3.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4805.5" Duration="22.5">
+            <HRBefore>70</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>87</O2Min>
+            <HRIncreaseAfter>13</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="4807" Duration="12" Machine="true">
+            <HRBefore>70</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>94</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="4830" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="4833" Duration="27" Machine="true">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>87</O2Min>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="4835" Duration="6" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="4835" Duration="6" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="4848.5" Duration="9" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="4879" Duration="10.5">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>67</HRExtreme>
+            <O2Before>99</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>7</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="4890" Duration="3" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="4919.5" Duration="38.5">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>56</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>78</O2Min>
+            <HRIncreaseAfter>17</HRIncreaseAfter>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="4920" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="12" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="4920" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="14" />
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="4926" Duration="13" Machine="true">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="4948" Duration="36" Machine="true">
+            <HRBefore>59</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>94</O2Before>
+            <O2Min>78</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="4960.5" Duration="4.5" />
+         <Event Family="Neuro" Type="Arousal" Start="4991" Duration="3" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="4997" Duration="13.5">
+            <HRBefore>73</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>99</O2Before>
+            <O2Min>85</O2Min>
+            <HRIncreaseAfter>4</HRIncreaseAfter>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="5010" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="13" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5013" Duration="3" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="5024" Duration="44.5">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>56</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>78</O2Min>
+            <HRIncreaseAfter>22</HRIncreaseAfter>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="5040" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="11" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="5040" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="14" />
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5056" Duration="38" Machine="true">
+            <HRBefore>57</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>78</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5070.5" Duration="3.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="5120" Duration="37">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>56</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>82</O2Min>
+            <HRIncreaseAfter>15</HRIncreaseAfter>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="5130" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="11" />
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5145" Duration="40" Machine="true">
+            <HRBefore>58</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>82</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5159.5" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="5164" Duration="4.5" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="5194" Duration="19.5">
+            <HRBefore>71</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5213" Duration="22" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5215.5" Duration="3" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="5247.5" Duration="23.5">
+            <HRBefore>70</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>84</O2Min>
+            <HRIncreaseAfter>10</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5262" Duration="41" Machine="true">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>84</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5273.5" Duration="3.5" />
+         <Event Family="Neuro" Type="Arousal" Start="5310.5" Duration="4" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="5320.5" Duration="37.5">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>56</HRExtreme>
+            <O2Before>99</O2Before>
+            <O2Min>79</O2Min>
+            <HRIncreaseAfter>24</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5332" Duration="11" Machine="true">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>56</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>94</O2Min>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5348" Duration="41" Machine="true">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>79</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5361.5" Duration="5" />
+         <Event Family="User" Type="ChannelFail" Start="5365" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="5365" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="Respiratory" Type="Hypopnea" Start="5380.5" Duration="15">
+            <HRBefore>79</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>93</O2Before>
+            <O2Min>81</O2Min>
+            <HRIncreaseAfter>3</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5398" Duration="4" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="5418" Duration="12.5">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>99</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="5428" Duration="7" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="5436.5" Duration="4.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5439" Duration="21" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="5459" Duration="16.5">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5477.5" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5479" Duration="25" Machine="true">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>90</O2Min>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="5481" Duration="7" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="5481" Duration="7" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5504" Duration="2.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="5508" Duration="13">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5524.5" Duration="2.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="5530.5" Duration="10">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5534" Duration="11" Machine="true">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5545.5" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5552" Duration="8" Machine="true">
+            <HRBefore>62</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="Hypopnea" Start="5561" Duration="11">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5574" Duration="3" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="5599.5" Duration="13.5">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>11</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5614.5" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5618" Duration="20" Machine="true">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="5648" Duration="13.5">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>54</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>7</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5663" Duration="2.5" />
+         <Event Family="Nasal" Type="Snore" Start="5666" Duration="11" Machine="true" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5667" Duration="18" Machine="true">
+            <HRBefore>62</HRBefore>
+            <HRExtreme>54</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="5678.5" Duration="17">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>54</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>13</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5697.5" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5704" Duration="5" Machine="true">
+            <HRBefore>59</HRBefore>
+            <HRExtreme>54</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5715" Duration="12" Machine="true">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>54</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="5715.5" Duration="21">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>54</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5738" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5744" Duration="12" Machine="true">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>56</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="5747" Duration="14.5" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="5764" Duration="24.5">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>56</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>88</O2Min>
+            <HRIncreaseAfter>57</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5784" Duration="22" Machine="true">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>88</O2Min>
+         </Event>
+         <Event Family="Cardiac" Type="Tachycardia" Start="5790" Duration="6" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>119</HRExtreme>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5790" Duration="3.5" />
+         <Event Family="User" Type="ChannelFail" Start="5792" Duration="6" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="5792" Duration="6" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5808" Duration="12" Machine="true">
+            <HRBefore>88</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>91</O2Before>
+            <O2Min>88</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5837.5" Duration="3.5" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="5866" Duration="13.5">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>3</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5880" Duration="17" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5882" Duration="3.5" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="5899.5" Duration="11">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>94</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5912" Duration="3" />
+         <Event Family="Nasal" Type="Snore" Start="5912.5" Duration="4.5" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="5961" Duration="32">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>53</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>81</O2Min>
+            <HRIncreaseAfter>16</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="5994" Duration="26" Machine="true">
+            <HRBefore>57</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>81</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="5994.5" Duration="3" />
+         <Event Family="User" Type="ChannelFail" Start="6030" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="12" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="6030" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="14" />
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="6032" Duration="32.5">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>81</O2Min>
+            <HRIncreaseAfter>11</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="6055" Duration="38" Machine="true">
+            <HRBefore>59</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>81</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="6066" Duration="4" />
+         <Event Family="Neuro" Type="Arousal" Start="6095" Duration="2.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="6101" Duration="11">
+            <HRBefore>71</HRBefore>
+            <HRExtreme>57</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>87</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="6114.5" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="6119" Duration="22" Machine="true">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>57</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>94</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="6124.5" Duration="22">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>57</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>87</O2Min>
+            <HRIncreaseAfter>7</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="6148" Duration="24" Machine="true">
+            <HRBefore>59</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>87</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="6149" Duration="2.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="6191.5" Duration="15">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>3</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="6209.5" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="6214" Duration="16" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>90</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="Hypopnea" Start="6221" Duration="13">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>83</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="6236.5" Duration="4" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="6244" Duration="12" Machine="true">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>57</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="6247" Duration="25">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>57</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>83</O2Min>
+            <HRIncreaseAfter>13</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="6270" Duration="22" Machine="true">
+            <HRBefore>59</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>83</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="6276.5" Duration="5" />
+         <Event Family="User" Type="ChannelFail" Start="6278" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="6278" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="6297.5" Duration="14">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>85</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="6313.5" Duration="3.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="6321" Duration="13">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>99</O2Before>
+            <O2Min>94</O2Min>
+            <HRIncreaseAfter>26</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="6321" Duration="14" Machine="true">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>99</O2Before>
+            <O2Min>94</O2Min>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="6336" Duration="5" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="6336" Duration="5" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="6337" Duration="4" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="6361" Duration="12">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>95</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="6376.5" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="6447.5" Duration="8" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="6450" Duration="3.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="6459.5" Duration="13.5">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>0</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="6472.5" Duration="7.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="6475.5" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="6488" Duration="8" Machine="true">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="6501.5" Duration="4" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="6509.5" Duration="4" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="6516" Duration="12">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="6530.5" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="6537" Duration="13.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="6557" Duration="3.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="6570.5" Duration="11" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="6588.5" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="6592.5" Duration="11.5" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="6595.5" Duration="12">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>94</O2Min>
+            <HRIncreaseAfter>3</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="6609.5" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="6610.5" Duration="4" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="6630" Duration="12">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>94</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="6635" Duration="17" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="6645" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="6658.5" Duration="4.5" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="6664" Duration="12">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>94</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="6669" Duration="25.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="6678" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="6701" Duration="41.5" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="6718" Duration="18.5">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>94</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="6740" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="6755.5" Duration="4" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="6777.5" Duration="15.5" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="6788.5" Duration="15">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="6806.5" Duration="6.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="6806.5" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="6814" Duration="17" Machine="true">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="6822" Duration="4.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="6832.5" Duration="4.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="6843" Duration="39" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="6846" Duration="24.5">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>94</O2Min>
+            <HRIncreaseAfter>8</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="6872.5" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="6898.5" Duration="4" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="6909" Duration="7.5" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="6917.5" Duration="22.5">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>11</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="6923.5" Duration="20" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="6942" Duration="3" />
+         <Event Family="Neuro" Type="Arousal" Start="6960.5" Duration="4.5" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="6970.5" Duration="10">
+            <HRBefore>84</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>94</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="6984" Duration="3.5" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="6996" Duration="11">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>95</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="7010.5" Duration="2.5" />
+         <Event Family="Nasal" Type="Snore" Start="7091.5" Duration="4.5" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="7163.5" Duration="12">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>95</O2Min>
+            <HRIncreaseAfter>4</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="7178" Duration="3.5" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="7225.5" Duration="13.5">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>94</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="7237.5" Duration="4.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="7242" Duration="3" />
+         <Event Family="Nasal" Type="Snore" Start="7302.5" Duration="10" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="7305" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="7331.5" Duration="10" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="7335" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="7351.5" Duration="4.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="7360.5" Duration="5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="7371" Duration="16.5">
+            <HRBefore>76</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>3</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="7391" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="7396" Duration="14" Machine="true">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Cardiac" Type="Tachycardia" Start="7428" Duration="8" Machine="true">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>129</HRExtreme>
+         </Event>
+         <Event Family="Respiratory" Type="Hypopnea" Start="7431.5" Duration="12.5">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>94</O2Min>
+            <HRIncreaseAfter>3</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="7445.5" Duration="3.5" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="7470" Duration="14">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>94</O2Min>
+            <HRIncreaseAfter>8</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="7488.5" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="7525.5" Duration="4.5" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="7541" Duration="11">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="7551" Duration="7" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="7555" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="7582.5" Duration="30" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="7619.5" Duration="3.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="7641.5" Duration="4.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="7659.5" Duration="4.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="7661" Duration="3" />
+         <Event Family="Nasal" Type="Snore" Start="7695" Duration="4.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="7706" Duration="4.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="7736" Duration="4.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="7740" Duration="3" />
+         <Event Family="Nasal" Type="Snore" Start="7774.5" Duration="4.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="7793" Duration="4" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="7817.5" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="7818.5" Duration="3.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="7857" Duration="22" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="7889" Duration="4.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="7896.5" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="7900" Duration="6.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="7939.5" Duration="4" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="7950.5" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="7969" Duration="4" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="7973" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="7979" Duration="4" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="8001" Duration="8" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="8010.5" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="8020" Duration="11.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="8040.5" Duration="4.5" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="8069" Duration="12">
+            <HRBefore>70</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>94</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="8084.5" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="8191.5" Duration="4.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="8225.5" Duration="4" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="8267" Duration="8" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="8310.5" Duration="4" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="8314.5" Duration="16">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>94</O2Min>
+            <HRIncreaseAfter>0</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="8320.5" Duration="4" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="8333.5" Duration="3" />
+         <Event Family="Nasal" Type="Snore" Start="8363" Duration="11.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="8377.5" Duration="3" />
+         <Event Family="Nasal" Type="Snore" Start="8385" Duration="4.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="8403.5" Duration="3" />
+         <Event Family="Neuro" Type="Arousal" Start="8424.5" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="8428" Duration="17" Machine="true">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="8450" Duration="3" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="8463" Duration="16">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>94</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="8474.5" Duration="4" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="8481.5" Duration="3" />
+         <Event Family="Nasal" Type="Snore" Start="8488.5" Duration="11.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="8536" Duration="4" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="8537" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="8578.5" Duration="6.5" Machine="true" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="8584" Duration="5" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>68</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="8592.5" Duration="4.5" />
+         <Event Family="Neuro" Type="Arousal" Start="8624" Duration="4" />
+         <Event Family="Neuro" Type="Arousal" Start="8654" Duration="3" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="8659.5" Duration="10">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>94</O2Min>
+            <HRIncreaseAfter>0</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="8670" Duration="3" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="8691" Duration="11.5">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>94</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="8705.5" Duration="3.5" />
+         <Event Family="Neuro" Type="Arousal" Start="8757.5" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="8919" Duration="4" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="9010" Duration="4" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="9021" Duration="3.5" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="9102" Duration="11.5">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>7</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="9115.5" Duration="3" />
+         <Event Family="Neuro" Type="Arousal" Start="9141" Duration="2.5" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="9146" Duration="11">
+            <HRBefore>62</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="9159.5" Duration="4" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="9377" Duration="22">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="9404" Duration="3.5" />
+         <Event Family="User" Type="ChannelFail" Start="9407" Duration="7" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="9407" Duration="7" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="Respiratory" Type="MixedApnea" Start="9449" Duration="11.5">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="9459" Duration="38" Machine="true" />
+         <Event Family="User" Type="Gain" Start="9461" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="5" EdfSignal="12" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="9463" Duration="4" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="9469" Duration="12" Machine="true">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="9507" Duration="4.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="9514.5" Duration="14">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>13</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="9531" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="9538" Duration="8" Machine="true">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="MixedApnea" Start="9545.5" Duration="18">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>7</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="9563" Duration="3.5" Machine="true" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="9567" Duration="26" Machine="true">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="9569" Duration="3.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="9584" Duration="19.5">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="9603.5" Duration="3.5" Machine="true" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="9606" Duration="15" Machine="true">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>90</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="9606" Duration="3" />
+         <Event Family="Nasal" Type="Snore" Start="9627" Duration="25" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="9659" Duration="21.5" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="9687" Duration="17">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>12</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="9707.5" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="9710" Duration="8" Machine="true">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="9722" Duration="14">
+            <HRBefore>70</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="9728" Duration="9" Machine="true">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>92</O2Before>
+            <O2Min>89</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="9735.5" Duration="13" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="9738" Duration="4" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="9745" Duration="12" Machine="true">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>94</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="9750.5" Duration="10.5">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>56</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>10</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="9758.5" Duration="3.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="9766" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="9773.5" Duration="3.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="9788" Duration="8" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="9807" Duration="34.5" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="9808.5" Duration="12.5">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>0</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="9824.5" Duration="4" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="9842" Duration="12.5">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>0</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="9855" Duration="4" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="9857" Duration="3" />
+         <Event Family="Nasal" Type="Snore" Start="9861" Duration="21" Machine="true" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="9865" Duration="6" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="9870" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="11" />
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="9884" Duration="18" Machine="true" />
+         <Event Family="User" Type="ChannelFail" Start="9900" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="12" />
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="9903.5" Duration="16.5">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>94</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>4</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="9924" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="9925.5" Duration="14" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="9946.5" Duration="7.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="9960.5" Duration="4" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="9968" Duration="18.5">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>65</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="9982" Duration="22.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="9988.5" Duration="3" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="10019" Duration="15.5">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>4</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="10034" Duration="13" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="10037.5" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="10040" Duration="22" Machine="true">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="10053" Duration="3.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="10063" Duration="4" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="10074" Duration="31" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="10076" Duration="2.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="10110.5" Duration="12">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="10122" Duration="13.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="10125.5" Duration="4" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="10138" Duration="16" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>93</O2Before>
+            <O2Min>90</O2Min>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="10140" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="12" />
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="10141" Duration="38.5">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>94</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>11</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="10155.5" Duration="7" Machine="true" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="10161" Duration="6" Machine="true">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="10180" Duration="23" Machine="true">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>94</O2Before>
+            <O2Min>89</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="10181.5" Duration="4.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="10186" Duration="5.5" />
+         <Event Family="User" Type="ChannelFail" Start="10189" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="10189" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="10215.5" Duration="3.5" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="10221.5" Duration="16">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>57</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="10240.5" Duration="4" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="10241" Duration="27" Machine="true">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>57</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="10292.5" Duration="4.5" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="10316" Duration="12">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>63</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="10331" Duration="4" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="10347.5" Duration="11.5">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>94</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="10362.5" Duration="3" />
+         <Event Family="Neuro" Type="Arousal" Start="10422.5" Duration="3" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="10428" Duration="12.5">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>0</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="10443.5" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="10465" Duration="3.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="10484" Duration="3" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="10492.5" Duration="11.5">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="10504" Duration="4.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="10506.5" Duration="3.5" />
+         <Event Family="User" Type="ChannelFail" Start="10540" Duration="60" Machine="true">
+            <ChannelFail EdfSignal="1" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="10541" Duration="53" Machine="true">
+            <ChannelFail EdfSignal="2" />
+         </Event>
+         <Event Family="Respiratory" Type="Hypopnea" Start="10543" Duration="11">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>64</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>14</HRIncreaseAfter>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="10556" Duration="5" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="10556" Duration="5" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="10562" Duration="4.5" />
+         <Event Family="Cardiac" Type="Tachycardia" Start="10563" Duration="2" Machine="true">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>86</HRExtreme>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="10564" Duration="6" Machine="true">
+            <HRBefore>69</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="10594" Duration="4.5" />
+         <Event Family="Nasal" Type="Snore" Start="10599" Duration="3.5" Machine="true" />
+         <Event Family="Respiratory" Type="MixedApnea" Start="10612" Duration="17">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>11</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="10631" Duration="28" Machine="true">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="10631" Duration="4" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="10651.5" Duration="22">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>11</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="10673" Duration="29" Machine="true">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>89</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="10676.5" Duration="3" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="10685" Duration="24.5">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>89</O2Min>
+            <HRIncreaseAfter>10</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="10713" Duration="4" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="10729" Duration="17">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>3</HRIncreaseAfter>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="10740" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="11" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="10748.5" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="10749" Duration="28" Machine="true">
+            <HRBefore>62</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="10750" Duration="4" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="10770" Duration="54.5">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="10770" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="12" />
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="10797" Duration="19" Machine="true">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="10826" Duration="2.5" />
+         <Event Family="Neuro" Type="Arousal" Start="10859.5" Duration="3.5" />
+         <Event Family="Neuro" Type="Arousal" Start="10886.5" Duration="2.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="10908" Duration="38.5">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>48</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>76</O2Min>
+            <HRIncreaseAfter>16</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="10944" Duration="37" Machine="true">
+            <HRBefore>54</HRBefore>
+            <HRExtreme>52</HRExtreme>
+            <O2Before>94</O2Before>
+            <O2Min>76</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="10948.5" Duration="4" />
+         <Event Family="User" Type="ChannelFail" Start="10980" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="12" />
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="10987" Duration="46.5">
+            <HRBefore>62</HRBefore>
+            <HRExtreme>52</HRExtreme>
+            <O2Before>99</O2Before>
+            <O2Min>73</O2Min>
+            <HRIncreaseAfter>39</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="11009" Duration="58" Machine="true">
+            <HRBefore>54</HRBefore>
+            <HRExtreme>54</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>73</O2Min>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="11036" Duration="7" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="11036" Duration="7" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="11036" Duration="4.5" />
+         <Event Family="User" Type="ChannelFail" Start="11070" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="14" />
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="11072" Duration="34">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>52</HRExtreme>
+            <O2Before>99</O2Before>
+            <O2Min>81</O2Min>
+            <HRIncreaseAfter>14</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="11097" Duration="45" Machine="true">
+            <HRBefore>58</HRBefore>
+            <HRExtreme>56</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>81</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="11109.5" Duration="4" />
+         <Event Family="Neuro" Type="Arousal" Start="11143.5" Duration="2.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="11147.5" Duration="32">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>55</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>82</O2Min>
+            <HRIncreaseAfter>57</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="11169" Duration="31" Machine="true">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>57</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>82</O2Min>
+         </Event>
+         <Event Family="Cardiac" Type="Tachycardia" Start="11181" Duration="6" Machine="true">
+            <HRBefore>62</HRBefore>
+            <HRExtreme>109</HRExtreme>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="11181" Duration="4" />
+         <Event Family="User" Type="ChannelFail" Start="11183" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="11183" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="11205" Duration="9" Machine="true">
+            <HRBefore>78</HRBefore>
+            <HRExtreme>55</HRExtreme>
+            <O2Before>86</O2Before>
+            <O2Min>82</O2Min>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="11220" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="12" />
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="11222" Duration="36">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>55</HRExtreme>
+            <O2Before>99</O2Before>
+            <O2Min>81</O2Min>
+            <HRIncreaseAfter>12</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="11250" Duration="38" Machine="true">
+            <HRBefore>58</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>81</O2Min>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="11264" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="11264" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="11264.5" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="11272.5" Duration="5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="11290.5" Duration="11" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="11291.5" Duration="4.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="11308" Duration="40.5">
+            <HRBefore>68</HRBefore>
+            <HRExtreme>57</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>79</O2Min>
+            <HRIncreaseAfter>13</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="11323" Duration="60" Machine="true">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>79</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="11350" Duration="5" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="11382.5" Duration="12">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>-1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="11399.5" Duration="4" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="11403" Duration="18" Machine="true">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>57</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="11423" Duration="10">
+            <HRBefore>62</HRBefore>
+            <HRExtreme>53</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>88</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="11434.5" Duration="5.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="11435" Duration="2.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="11442.5" Duration="16">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>53</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>87</O2Min>
+            <HRIncreaseAfter>11</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="11460" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="11466" Duration="18" Machine="true">
+            <HRBefore>59</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>94</O2Before>
+            <O2Min>88</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="11466.5" Duration="8" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="11482" Duration="43">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>39</HRExtreme>
+            <O2Before>94</O2Before>
+            <O2Min>72</O2Min>
+            <HRIncreaseAfter>33</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="11503" Duration="54" Machine="true">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>39</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>72</O2Min>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="11528" Duration="7" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="11528" Duration="7" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="11528" Duration="4.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="11574.5" Duration="58.5">
+            <HRBefore>54</HRBefore>
+            <HRExtreme>49</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>65</O2Min>
+            <HRIncreaseAfter>19</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="11603" Duration="59" Machine="true">
+            <HRBefore>52</HRBefore>
+            <HRExtreme>50</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>65</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="11635" Duration="4" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="11686.5" Duration="27">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>56</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>84</O2Min>
+            <HRIncreaseAfter>13</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="11705" Duration="44" Machine="true">
+            <HRBefore>57</HRBefore>
+            <HRExtreme>55</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>84</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="11716.5" Duration="4" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="11739.5" Duration="13.5">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>55</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>85</O2Min>
+            <HRIncreaseAfter>60</HRIncreaseAfter>
+         </Event>
+         <Event Family="Cardiac" Type="Tachycardia" Start="11754" Duration="5" Machine="true">
+            <HRBefore>62</HRBefore>
+            <HRExtreme>118</HRExtreme>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="11754" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="11754" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="11755" Duration="4" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="11788" Duration="16">
+            <HRBefore>59</HRBefore>
+            <HRExtreme>55</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>14</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="11806.5" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="11811" Duration="25" Machine="true">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>52</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="11840" Duration="26">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>52</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>85</O2Min>
+            <HRIncreaseAfter>11</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="11864" Duration="34" Machine="true">
+            <HRBefore>55</HRBefore>
+            <HRExtreme>55</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>85</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="11868.5" Duration="3.5" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="11907.5" Duration="12">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>53</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>90</O2Min>
+            <HRIncreaseAfter>4</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="11921.5" Duration="2.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="11929.5" Duration="56">
+            <HRBefore>58</HRBefore>
+            <HRExtreme>51</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>69</O2Min>
+            <HRIncreaseAfter>23</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="11932" Duration="18" Machine="true">
+            <HRBefore>59</HRBefore>
+            <HRExtreme>51</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>90</O2Min>
+         </Event>
+         <Event Family="Cardiac" Type="Tachycardia" Start="11992" Duration="8" Machine="true">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>130</HRExtreme>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="11992.5" Duration="5" />
+         <Event Family="User" Type="ChannelFail" Start="11994" Duration="6" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="11994" Duration="6" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="12000" Duration="10" Machine="true">
+            <ChannelFail EdfSignal="15" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="12000" Duration="10" Machine="true">
+            <ChannelFail EdfSignal="18" />
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="12011.5" Duration="5" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="12025.5" Duration="18.5">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>52</HRExtreme>
+            <O2Before>99</O2Before>
+            <O2Min>85</O2Min>
+            <HRIncreaseAfter>7</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="12041" Duration="41" Machine="true">
+            <HRBefore>55</HRBefore>
+            <HRExtreme>56</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>85</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="12049" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="12049.5" Duration="3.5" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="12076" Duration="32.5">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>94</O2Before>
+            <O2Min>88</O2Min>
+            <HRIncreaseAfter>8</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="12106" Duration="3.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="12110.5" Duration="4.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="12126.5" Duration="48.5">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>54</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>81</O2Min>
+            <HRIncreaseAfter>32</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="12150" Duration="54" Machine="true">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>6</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>81</O2Min>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="12150" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="11" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="12159" Duration="54" Machine="true">
+            <ChannelFail EdfSignal="1" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="12159" Duration="57" Machine="true">
+            <ChannelFail EdfSignal="2" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="12178" Duration="7" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="12178" Duration="7" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="Cardiac" Type="Tachycardia" Start="12181" Duration="18" Machine="true">
+            <HRBefore>62</HRBefore>
+            <HRExtreme>169</HRExtreme>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="12183.5" Duration="5.5" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="12353" Duration="13.5">
+            <HRBefore>1</HRBefore>
+            <HRExtreme>0</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="12376" Duration="4.5" />
+         <Event Family="User" Type="Gain" Start="12453" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="2" EdfSignal="12" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="12455" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="1" EdfSignal="11" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="12458" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="2" EdfSignal="13" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="12492" Duration="4" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="12501.5" Duration="13.5">
+            <HRBefore>8</HRBefore>
+            <HRExtreme>5</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>94</O2Min>
+            <HRIncreaseAfter>0</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="12519" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="12524.5" Duration="14" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="12552" Duration="17.5">
+            <HRBefore>14</HRBefore>
+            <HRExtreme>12</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>94</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="12570.5" Duration="4.5" />
+         <Event Family="Nasal" Type="Snore" Start="12592" Duration="11" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="12605" Duration="18">
+            <HRBefore>20</HRBefore>
+            <HRExtreme>7</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>4</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="12626" Duration="3" />
+         <Event Family="Nasal" Type="Snore" Start="12634.5" Duration="13" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="12654" Duration="4" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="12665" Duration="8.5" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="12680" Duration="13.5">
+            <HRBefore>18</HRBefore>
+            <HRExtreme>15</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="12696" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="12699.5" Duration="107.5" Machine="true" />
+         <Event Family="User" Type="ChannelFail" Start="12780" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="13" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="12810" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="12813" Duration="100.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="12915.5" Duration="120.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="13040.5" Duration="4.5" />
+         <Event Family="User" Type="ChannelFail" Start="13091" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="13091" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="13128" Duration="54" Machine="true">
+            <ChannelFail EdfSignal="1" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="13148" Duration="6" />
+         <Event Family="Cardiac" Type="Tachycardia" Start="13150" Duration="8" Machine="true">
+            <HRBefore>30</HRBefore>
+            <HRExtreme>143</HRExtreme>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="13150" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="13150" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="Cardiac" Type="Tachycardia" Start="13159" Duration="2" Machine="true">
+            <HRBefore>32</HRBefore>
+            <HRExtreme>118</HRExtreme>
+         </Event>
+         <Event Family="Respiratory" Type="Hypopnea" Start="13193.5" Duration="12.5">
+            <HRBefore>58</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>8</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="13208.5" Duration="3.5" />
+         <Event Family="User" Type="ChannelFail" Start="13246" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="13246" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="13246.5" Duration="4" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="13262" Duration="12">
+            <HRBefore>67</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="13277.5" Duration="4" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="13281" Duration="22" Machine="true">
+            <HRBefore>59</HRBefore>
+            <HRExtreme>57</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="Hypopnea" Start="13290.5" Duration="19.5">
+            <HRBefore>62</HRBefore>
+            <HRExtreme>55</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>13</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="13313" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="13316" Duration="10" Machine="true">
+            <HRBefore>59</HRBefore>
+            <HRExtreme>55</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="13329.5" Duration="11.5">
+            <HRBefore>65</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="13341" Duration="6.5" Machine="true" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="13345" Duration="19" Machine="true">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="13374" Duration="10.5">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>57</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>3</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="13384" Duration="4" Machine="true" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="13385" Duration="13" Machine="true">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>57</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="13386" Duration="5" />
+         <Event Family="Respiratory" Type="MixedApnea" Start="13407" Duration="17">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>53</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>11</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="13428.5" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="13429" Duration="10" Machine="true">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>53</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="13436.5" Duration="11.5" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="13442" Duration="32">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>55</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>4</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="13458.5" Duration="8" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="13476" Duration="3" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="13508" Duration="13">
+            <HRBefore>59</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="13521" Duration="17.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="13525" Duration="3" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="13530" Duration="16" Machine="true">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="Hypopnea" Start="13538" Duration="14.5">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>57</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="13549" Duration="17.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="13557" Duration="3.5" />
+         <Event Family="User" Type="Gain" Start="13559" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="6" EdfSignal="13" />
+         </Event>
+         <Event Family="User" Type="Gain" Start="13562" Duration="0" OriginatedOnDevice="true">
+            <ChannelGain GainLevel="4" EdfSignal="12" />
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="13573.5" Duration="11.5" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="13584.5" Duration="10.5">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="13595" Duration="18" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="13600.5" Duration="4" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="13606" Duration="23" Machine="true">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="13616.5" Duration="13">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="13627.5" Duration="11" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="13633" Duration="4.5" />
+         <Event Family="User" Type="ChannelFail" Start="13640" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="3" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="13640" Duration="4" Machine="true">
+            <ChannelFail EdfSignal="4" />
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="13649" Duration="14" Machine="true">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>57</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>91</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="Hypopnea" Start="13653" Duration="23.5">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>57</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="13659.5" Duration="4.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="13675.5" Duration="4" Machine="true" />
+         <Event Family="User" Type="ChannelFail" Start="13680" Duration="60" Machine="true">
+            <ChannelFail EdfSignal="11" />
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="13680.5" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="13686.5" Duration="7" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="13695" Duration="13.5">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>54</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="13713" Duration="5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="13717" Duration="6" Machine="true">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>54</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="13720.5" Duration="8" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="13729.5" Duration="12">
+            <HRBefore>66</HRBefore>
+            <HRExtreme>56</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>91</O2Min>
+            <HRIncreaseAfter>9</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="13741.5" Duration="21" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="13743.5" Duration="4" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="13770" Duration="11.5">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="13783.5" Duration="11" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="13786" Duration="4.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="13797" Duration="12.5">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="13801" Duration="18" Machine="true">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="13810.5" Duration="7" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="13817.5" Duration="4" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="13826" Duration="15.5">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>54</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>4</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="13826" Duration="15" Machine="true">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>54</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="13844" Duration="4" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="13850.5" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="13854" Duration="20" Machine="true">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>54</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="13860" Duration="30" Machine="true">
+            <ChannelFail EdfSignal="11" />
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="13871" Duration="12.5">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>7</HRIncreaseAfter>
+         </Event>
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="13884" Duration="32" Machine="true">
+            <HRBefore>57</HRBefore>
+            <HRExtreme>56</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="13885.5" Duration="3" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="13907.5" Duration="12.5">
+            <HRBefore>62</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="Neuro" Type="Arousal" Start="13920" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="13930" Duration="4" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="13940" Duration="7.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="13964.5" Duration="11" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="13977.5" Duration="12">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>5</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="13991" Duration="3.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="13993.5" Duration="5" />
+         <Event Family="Nasal" Type="Snore" Start="14022.5" Duration="4" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="14033.5" Duration="13">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>0</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14047" Duration="7" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="14056.5" Duration="4.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="14065.5" Duration="19">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14085.5" Duration="13" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="14088.5" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="14092" Duration="27" Machine="true">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>55</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="14102.5" Duration="16">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>55</HRExtreme>
+            <O2Before>98</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>10</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14119" Duration="3.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="14124" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="14127" Duration="21" Machine="true">
+            <HRBefore>58</HRBefore>
+            <HRExtreme>56</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14128.5" Duration="7" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="14137.5" Duration="14">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>57</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14142.5" Duration="24" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="14155.5" Duration="2.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="14169.5" Duration="13.5">
+            <HRBefore>62</HRBefore>
+            <HRExtreme>53</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14183.5" Duration="10" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="14190" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="14202.5" Duration="7.5" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="14211" Duration="14.5">
+            <HRBefore>59</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14224.5" Duration="11" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="14228.5" Duration="4.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="14238" Duration="17" Machine="true">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Respiratory" Type="Hypopnea" Start="14244" Duration="13">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14248.5" Duration="7.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="14261" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="14262" Duration="8" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="14274.5" Duration="13.5">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>55</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14289" Duration="4" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="14295.5" Duration="4" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="14303" Duration="12.5">
+            <HRBefore>64</HRBefore>
+            <HRExtreme>54</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>6</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14315.5" Duration="10.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="14317.5" Duration="4" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="14326" Duration="13.5">
+            <HRBefore>59</HRBefore>
+            <HRExtreme>57</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>0</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14332" Duration="39" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="14340" Duration="3.5" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="14375" Duration="12.5">
+            <HRBefore>59</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>97</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14377" Duration="4.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="14390.5" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="14391.5" Duration="14" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="14409.5" Duration="13.5">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>58</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>4</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14419" Duration="7.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="14427.5" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="14439.5" Duration="10.5" Machine="true" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="14458" Duration="10">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14470" Duration="28" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="14472.5" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="14504.5" Duration="4.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="14515.5" Duration="4" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="14525" Duration="13">
+            <HRBefore>60</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>-1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14526" Duration="4" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="14532" Duration="25" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="14540.5" Duration="3" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="14554" Duration="15">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>60</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>4</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14566.5" Duration="4" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="14572" Duration="3.5" />
+         <Event Family="Nasal" Type="Snore" Start="14572.5" Duration="20" Machine="true" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="14579" Duration="16" Machine="true">
+            <HRBefore>62</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14598.5" Duration="10" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="14602.5" Duration="16">
+            <HRBefore>62</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>2</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14618.5" Duration="24" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="14621" Duration="3.5" />
+         <Event Family="Respiratory" Type="ObstructiveApnea" Start="14663.5" Duration="10.5">
+            <HRBefore>62</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14664.5" Duration="24.5" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="14676" Duration="3.5" />
+         <Event Family="SpO2" Type="RelativeDesaturation" Start="14683" Duration="16" Machine="true">
+            <HRBefore>62</HRBefore>
+            <HRExtreme>59</HRExtreme>
+            <O2Before>96</O2Before>
+            <O2Min>93</O2Min>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14691" Duration="11.5" Machine="true" />
+         <Event Family="Nasal" Type="Snore" Start="14716" Duration="17" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="14723" Duration="16.5">
+            <HRBefore>61</HRBefore>
+            <HRExtreme>61</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>93</O2Min>
+            <HRIncreaseAfter>0</HRIncreaseAfter>
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14735" Duration="8" Machine="true" />
+         <Event Family="Neuro" Type="Arousal" Start="14742.5" Duration="4" />
+         <Event Family="Nasal" Type="Snore" Start="14745" Duration="61.5" Machine="true" />
+         <Event Family="Respiratory" Type="Hypopnea" Start="14782" Duration="13.5">
+            <HRBefore>63</HRBefore>
+            <HRExtreme>62</HRExtreme>
+            <O2Before>95</O2Before>
+            <O2Min>92</O2Min>
+            <HRIncreaseAfter>1</HRIncreaseAfter>
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="14797" Duration="49" Machine="true">
+            <ChannelFail EdfSignal="1" />
+         </Event>
+         <Event Family="User" Type="ChannelFail" Start="14807" Duration="39" Machine="true">
+            <ChannelFail EdfSignal="2" />
+         </Event>
+         <Event Family="Nasal" Type="Snore" Start="14808.5" Duration="9" Machine="true" />
+      </Events>
+      <StagingData StagingDisplay="NeuroAdultAASM">
+         <UserStaging>
+            <NeuroAdultAASMStaging>
+               <Stage Type="Wake" Start="0" />
+               <Stage Type="NonREM2" Start="630" />
+               <Stage Type="Wake" Start="1200" />
+               <Stage Type="NonREM2" Start="1230" />
+               <Stage Type="REM" Start="4950" />
+               <Stage Type="NonREM2" Start="5400" />
+               <Stage Type="REM" Start="5670" />
+               <Stage Type="NonREM2" Start="5850" />
+               <Stage Type="REM" Start="6000" />
+               <Stage Type="NonREM2" Start="6210" />
+               <Stage Type="REM" Start="10920" />
+               <Stage Type="NonREM1" Start="12180" />
+               <Stage Type="NonREM2" Start="12240" />
+               <Stage Type="Wake" Start="13080" />
+               <Stage Type="NonREM2" Start="13110" />
+               <Stage Type="REM" Start="13170" />
+               <Stage Type="NonREM2" Start="13290" />
+               <Stage Type="Wake" Start="14820" />
+            </NeuroAdultAASMStaging>
+         </UserStaging>
+         <MachineStaging>
+            <NeuroAdultAASMStaging>
+               <Stage Type="Wake" Start="0" />
+               <Stage Type="NonREM1" Start="1830" />
+               <Stage Type="NonREM2" Start="1860" />
+               <Stage Type="NonREM1" Start="2250" />
+               <Stage Type="NonREM2" Start="2370" />
+               <Stage Type="Wake" Start="2460" />
+               <Stage Type="NonREM1" Start="2910" />
+               <Stage Type="NonREM2" Start="3270" />
+               <Stage Type="NonREM1" Start="3480" />
+               <Stage Type="NonREM2" Start="3690" />
+               <Stage Type="Wake" Start="3930" />
+               <Stage Type="NonREM1" Start="3960" />
+               <Stage Type="NonREM2" Start="3990" />
+               <Stage Type="NonREM1" Start="4650" />
+               <Stage Type="NonREM2" Start="4680" />
+               <Stage Type="NonREM1" Start="5340" />
+               <Stage Type="Wake" Start="5460" />
+               <Stage Type="NonREM1" Start="5490" />
+               <Stage Type="NonREM2" Start="5520" />
+               <Stage Type="NonREM1" Start="5880" />
+               <Stage Type="NonREM2" Start="6180" />
+               <Stage Type="NonREM1" Start="6870" />
+               <Stage Type="NonREM2" Start="6990" />
+               <Stage Type="NonREM3" Start="7320" />
+               <Stage Type="NonREM2" Start="7350" />
+               <Stage Type="NonREM3" Start="8280" />
+               <Stage Type="NonREM2" Start="8310" />
+               <Stage Type="NonREM3" Start="8370" />
+               <Stage Type="NonREM2" Start="8400" />
+               <Stage Type="NonREM3" Start="8550" />
+               <Stage Type="Wake" Start="8580" />
+               <Stage Type="NonREM1" Start="8610" />
+               <Stage Type="NonREM3" Start="8850" />
+               <Stage Type="NonREM2" Start="8880" />
+               <Stage Type="NonREM3" Start="9000" />
+               <Stage Type="NonREM2" Start="9030" />
+               <Stage Type="NonREM3" Start="9300" />
+               <Stage Type="NonREM2" Start="9330" />
+               <Stage Type="Wake" Start="9510" />
+               <Stage Type="NonREM1" Start="9720" />
+               <Stage Type="NonREM2" Start="9900" />
+               <Stage Type="Wake" Start="10170" />
+               <Stage Type="NonREM2" Start="10590" />
+               <Stage Type="Wake" Start="10620" />
+               <Stage Type="NonREM1" Start="10650" />
+               <Stage Type="NonREM2" Start="10770" />
+               <Stage Type="NonREM1" Start="10980" />
+               <Stage Type="NonREM2" Start="12300" />
+               <Stage Type="Wake" Start="13140" />
+               <Stage Type="NonREM1" Start="13170" />
+               <Stage Type="NonREM2" Start="13350" />
+               <Stage Type="NonREM1" Start="13650" />
+               <Stage Type="NonREM2" Start="13770" />
+               <Stage Type="NonREM1" Start="14280" />
+               <Stage Type="NonREM2" Start="14550" />
+               <Stage Type="NonREM1" Start="14790" />
+               <Stage Type="Wake" Start="14820" />
+               <Stage Type="NotScored" Start="14844" />
+            </NeuroAdultAASMStaging>
+            <PneumoStaging>
+               <Stage Type="QuietSleep" Start="0" />
+               <Stage Type="NotScored" Start="14820" />
+            </PneumoStaging>
+         </MachineStaging>
+      </StagingData>
+   </ScoringData>
+   <AnalysisOptions>
+      <ao:GenericOptions>
+         <ao:EventTypeAssignments>
+            <ao:EventTypeAssignment EventType="CentralApnea" ImplementationName="Standard" />
+            <ao:EventTypeAssignment EventType="ObstructiveApnea" ImplementationName="Standard" />
+            <ao:EventTypeAssignment EventType="MixedApnea" ImplementationName="Standard" />
+            <ao:EventTypeAssignment EventType="Hypopnea" ImplementationName="Standard" />
+            <ao:EventTypeAssignment EventType="PeriodicRespiration" ImplementationName="Standard" />
+            <ao:EventTypeAssignment EventType="Bradycardia" ImplementationName="Standard" />
+            <ao:EventTypeAssignment EventType="Tachycardia" ImplementationName="Standard" />
+            <ao:EventTypeAssignment EventType="LongRR" ImplementationName="Standard" />
+            <ao:EventTypeAssignment EventType="PttDrop" ImplementationName="Standard" />
+            <ao:EventTypeAssignment EventType="RelativeDesaturation" ImplementationName="Standard" />
+            <ao:EventTypeAssignment EventType="Snore" ImplementationName="Standard" />
+            <ao:EventTypeAssignment EventType="Arousal" ImplementationName="Standard" />
+            <ao:EventTypeAssignment EventType="LegMovement" ImplementationName="Standard" />
+            <ao:EventTypeAssignment EventType="pHDrop" ImplementationName="Standard" />
+         </ao:EventTypeAssignments>
+         <ao:SleepStagingAssignment ImplementationName="Standard" />
+      </ao:GenericOptions>
+   </AnalysisOptions>
+   <ReportCalcOptions>
+      <rc:HRDropThreshold>12.5</rc:HRDropThreshold>
+      <rc:SpO2DropThreshold>3</rc:SpO2DropThreshold>
+      <rc:OptimizedPressureThreshold>90</rc:OptimizedPressureThreshold>
+      <rc:AdditionalSpO2Level>0</rc:AdditionalSpO2Level>
+      <rc:AdditionalEtCO2Level>0</rc:AdditionalEtCO2Level>
+      <rc:PLMMaxPeriod>90</rc:PLMMaxPeriod>
+      <rc:PLMMinPeriod>5</rc:PLMMinPeriod>
+      <rc:PLMMinNumber>4</rc:PLMMinNumber>
+      <rc:MaxArousalAssocTime>6</rc:MaxArousalAssocTime>
+      <rc:EventPriorities>
+         <rc:EventArousalAssoc EventArousalAssocType="RespiratoryArousal" />
+         <rc:EventArousalAssoc EventArousalAssocType="LegMovementArousal" />
+         <rc:EventArousalAssoc EventArousalAssocType="SnoreArousal" />
+      </rc:EventPriorities>
+   </ReportCalcOptions>
+   <EventFilters>
+      <ef:CAMinDur>10</ef:CAMinDur>
+      <ef:OAMinDur>10</ef:OAMinDur>
+      <ef:MAMinDur>10</ef:MAMinDur>
+      <ef:HypMinDur>10</ef:HypMinDur>
+      <ef:ConfirmHypsWithDesatsAndOrArousals>true</ef:ConfirmHypsWithDesatsAndOrArousals>
+      <ef:UseAutonomousResponsesForEegArousal>false</ef:UseAutonomousResponsesForEegArousal>
+      <ef:RequiredHrIncreaseForAutonomousResponse>5</ef:RequiredHrIncreaseForAutonomousResponse>
+      <ef:ReraMinDur>10</ef:ReraMinDur>
+      <ef:BradyMinDur>5</ef:BradyMinDur>
+      <ef:TachyMinDur>5</ef:TachyMinDur>
+      <ef:PTTDropMinDecrease>20</ef:PTTDropMinDecrease>
+      <ef:MinRelativeSpO2Drop>3</ef:MinRelativeSpO2Drop>
+      <ef:KeepEventsInWake>false</ef:KeepEventsInWake>
+      <ef:KeepLegMvtEventsInWake>false</ef:KeepLegMvtEventsInWake>
+      <ef:FilterLegMvtEventsNearRespEvents>true</ef:FilterLegMvtEventsNearRespEvents>
+      <ef:LegMvtEventDurationFromRespEvent>0.5</ef:LegMvtEventDurationFromRespEvent>
+      <ef:FilterLegMvtEventsBetweenRespEvents>false</ef:FilterLegMvtEventsBetweenRespEvents>
+      <ef:FilterLegMvtEventsNotPLMs>false</ef:FilterLegMvtEventsNotPLMs>
+      <ef:DisallowOverlappingLegMvtEvents>true</ef:DisallowOverlappingLegMvtEvents>
+   </EventFilters>
+   <TrendChannelMappings>
+      <TrendChannelMapping TrendEdfSignal="0">
+         <EdfSignals>
+            <EdfSignal>1</EdfSignal>
+            <EdfSignal>2</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="1">
+         <EdfSignals>
+            <EdfSignal>1</EdfSignal>
+            <EdfSignal>2</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="2">
+         <EdfSignals>
+            <EdfSignal>1</EdfSignal>
+            <EdfSignal>2</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="3">
+         <EdfSignals>
+            <EdfSignal>3</EdfSignal>
+            <EdfSignal>4</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="4">
+         <EdfSignals>
+            <EdfSignal>3</EdfSignal>
+            <EdfSignal>4</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="5">
+         <EdfSignals>
+            <EdfSignal>5</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="6">
+         <EdfSignals>
+            <EdfSignal>7</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="7">
+         <EdfSignals>
+            <EdfSignal>10</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="8">
+         <EdfSignals>
+            <EdfSignal>11</EdfSignal>
+            <EdfSignal>12</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="9">
+         <EdfSignals>
+            <EdfSignal>13</EdfSignal>
+            <EdfSignal>14</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="10">
+         <EdfSignals>
+            <EdfSignal>15</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="11">
+         <EdfSignals>
+            <EdfSignal>17</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="12">
+         <EdfSignals>
+            <EdfSignal>9</EdfSignal>
+            <EdfSignal>8</EdfSignal>
+            <EdfSignal>20</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="13">
+         <EdfSignals>
+            <EdfSignal>9</EdfSignal>
+            <EdfSignal>16</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="14">
+         <EdfSignals>
+            <EdfSignal>15</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="15">
+         <EdfSignals>
+            <EdfSignal>9</EdfSignal>
+            <EdfSignal>8</EdfSignal>
+            <EdfSignal>20</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="16">
+         <EdfSignals>
+            <EdfSignal>18</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="17">
+         <EdfSignals>
+            <EdfSignal>1</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="18">
+         <EdfSignals>
+            <EdfSignal>2</EdfSignal>
+         </EdfSignals>
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="19">
+         <EdfSignals />
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="20">
+         <EdfSignals />
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="21">
+         <EdfSignals />
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="22">
+         <EdfSignals />
+      </TrendChannelMapping>
+      <TrendChannelMapping TrendEdfSignal="23">
+         <EdfSignals />
+      </TrendChannelMapping>
+   </TrendChannelMappings>
+   <BodyPositionState>
+      <BodyPositionItem Position="Up" Start="0" />
+      <BodyPositionItem Position="Supine" Start="1" />
+      <BodyPositionItem Position="Right" Start="11994" />
+      <BodyPositionItem Position="Supine" Start="11995" />
+      <BodyPositionItem Position="Right" Start="12191" />
+      <BodyPositionItem Position="Supine" Start="13151" />
+   </BodyPositionState>
+</PatientStudy>
