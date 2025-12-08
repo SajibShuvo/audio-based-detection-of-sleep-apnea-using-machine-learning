@@ -1,0 +1,817 @@
+All logs will be stored in ./Logs
+Job started on sc030 at Mon Dec  1 20:36:56 MST 2025
+SLURM_JOB_ID: 41093051
+[INFO] Using device: cpu
+[INFO] Total mel files found: 73
+[INFO] Usable (mel, label) pairs: 73
+[INFO] Patient-level split (files):
+       Train: 51
+       Val:   14
+       Test:  8
+
+[INFO] Building TRAIN dataset (male)...
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001558-100507.npy: 2225 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001249-100507.npy: 1625 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001579-100507.npy: 2445 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001331-100507.npy: 1468 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001086-100507.npy: 1561 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001342-100507.npy: 1467 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001224-100507.npy: 1550 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001262-100507.npy: 1265 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001508-100507.npy: 2111 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001597-100507.npy: 2368 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001182-100507.npy: 1400 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001649-100507.npy: 2078 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001673-100507.npy: 1764 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001521-100507.npy: 2101 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001449-100507.npy: 1449 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001447-100507.npy: 1650 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001498-100507.npy: 2041 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001369-100507.npy: 2180 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001658-100507.npy: 2192 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001408-100507.npy: 1311 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001549-100507.npy: 1080 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001010-100507.npy: 1323 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001656-100507.npy: 2142 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001681-100507.npy: 1542 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001412-100507.npy: 1447 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001518-100507.npy: 1948 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001295-100507.npy: 1453 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001593-100507.npy: 2597 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001318-100507.npy: 1877 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001110-100507.npy: 1500 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001256-100507.npy: 1470 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001606-100507.npy: 1318 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001276-100507.npy: 1893 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001392-100507.npy: 2067 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001301-100507.npy: 1765 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001636-100507.npy: 1261 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001043-100507.npy: 1530 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001571-100507.npy: 1106 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001629-100507.npy: 2679 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001120-100507.npy: 1696 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001575-100507.npy: 1158 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001274-100507.npy: 1780 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001324-100507.npy: 1391 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001127-100507.npy: 1769 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001006-100507.npy: 1430 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001667-100507.npy: 1397 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001396-100507.npy: 1557 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001669-100507.npy: 1689 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001616-100507.npy: 2570 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001322-100507.npy: 1430 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001382-100507.npy: 2749 segments, shape=(3, 64, 3001)
+[INFO] Total male segments: 88865
+[INFO] Found label classes: ['CentralApnea', 'CentralApnea;Hypopnea', 'CentralApnea;MixedApnea', 'CentralApnea;MixedApnea;ObstructiveApnea', 'CentralApnea;ObstructiveApnea', 'CentralApnea;PeriodicRespiration', 'CentralApnea;PeriodicRespiration;Hypopnea', 'Hypopnea', 'Hypopnea;CentralApnea', 'Hypopnea;MixedApnea', 'Hypopnea;ObstructiveApnea', 'MixedApnea', 'MixedApnea;CentralApnea', 'MixedApnea;Hypopnea', 'MixedApnea;ObstructiveApnea', 'Normal', 'ObstructiveApnea', 'ObstructiveApnea;CentralApnea', 'ObstructiveApnea;Hypopnea', 'ObstructiveApnea;MixedApnea', 'PeriodicRespiration;CentralApnea', 'PeriodicRespiration;Hypopnea']
+[INFO] Binary label mapping:
+       Normal -> 0
+       CentralApnea -> 1 (event)
+       CentralApnea;Hypopnea -> 1 (event)
+       CentralApnea;MixedApnea -> 1 (event)
+       CentralApnea;MixedApnea;ObstructiveApnea -> 1 (event)
+       CentralApnea;ObstructiveApnea -> 1 (event)
+       CentralApnea;PeriodicRespiration -> 1 (event)
+       CentralApnea;PeriodicRespiration;Hypopnea -> 1 (event)
+       Hypopnea -> 1 (event)
+       Hypopnea;CentralApnea -> 1 (event)
+       Hypopnea;MixedApnea -> 1 (event)
+       Hypopnea;ObstructiveApnea -> 1 (event)
+       MixedApnea -> 1 (event)
+       MixedApnea;CentralApnea -> 1 (event)
+       MixedApnea;Hypopnea -> 1 (event)
+       MixedApnea;ObstructiveApnea -> 1 (event)
+       ObstructiveApnea -> 1 (event)
+       ObstructiveApnea;CentralApnea -> 1 (event)
+       ObstructiveApnea;Hypopnea -> 1 (event)
+       ObstructiveApnea;MixedApnea -> 1 (event)
+       PeriodicRespiration;CentralApnea -> 1 (event)
+       PeriodicRespiration;Hypopnea -> 1 (event)
+
+[INFO] Building VAL dataset (male)...
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001463-100507.npy: 1349 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001444-100507.npy: 1147 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001488-100507.npy: 2123 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001139-100507.npy: 1558 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001677-100507.npy: 1056 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001640-100507.npy: 1408 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001400-100507.npy: 1496 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001357-100507.npy: 1096 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001701-100507.npy: 2050 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001661-100507.npy: 1045 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001041-100507.npy: 1498 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001008-100507.npy: 1512 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001028-100507.npy: 2207 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001576-100507.npy: 1388 segments, shape=(3, 64, 3001)
+[INFO] Total male segments: 20933
+[INFO] Found label classes: ['CentralApnea', 'CentralApnea;Hypopnea', 'CentralApnea;ObstructiveApnea', 'Hypopnea', 'Hypopnea;CentralApnea', 'Hypopnea;MixedApnea', 'Hypopnea;ObstructiveApnea', 'MixedApnea', 'MixedApnea;CentralApnea', 'MixedApnea;Hypopnea', 'MixedApnea;ObstructiveApnea', 'Normal', 'ObstructiveApnea', 'ObstructiveApnea;CentralApnea', 'ObstructiveApnea;Hypopnea', 'ObstructiveApnea;MixedApnea']
+[INFO] Binary label mapping:
+       Normal -> 0
+       CentralApnea -> 1 (event)
+       CentralApnea;Hypopnea -> 1 (event)
+       CentralApnea;ObstructiveApnea -> 1 (event)
+       Hypopnea -> 1 (event)
+       Hypopnea;CentralApnea -> 1 (event)
+       Hypopnea;MixedApnea -> 1 (event)
+       Hypopnea;ObstructiveApnea -> 1 (event)
+       MixedApnea -> 1 (event)
+       MixedApnea;CentralApnea -> 1 (event)
+       MixedApnea;Hypopnea -> 1 (event)
+       MixedApnea;ObstructiveApnea -> 1 (event)
+       ObstructiveApnea -> 1 (event)
+       ObstructiveApnea;CentralApnea -> 1 (event)
+       ObstructiveApnea;Hypopnea -> 1 (event)
+       ObstructiveApnea;MixedApnea -> 1 (event)
+
+[INFO] Building TEST dataset (male)...
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001131-100507.npy: 1417 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001143-100507.npy: 1726 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001245-100507.npy: 1453 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001329-100507.npy: 1595 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001355-100507.npy: 1471 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001390-100507.npy: 1475 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001018-100507.npy: 1525 segments, shape=(3, 64, 3001)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/segments_30s/features/male/mel_spectrum/00001147-100507.npy: 2306 segments, shape=(3, 64, 3001)
+[INFO] Total male segments: 12968
+[INFO] Found label classes: ['CentralApnea', 'CentralApnea;Hypopnea', 'CentralApnea;MixedApnea', 'CentralApnea;ObstructiveApnea', 'Hypopnea', 'Hypopnea;CentralApnea', 'Hypopnea;MixedApnea', 'Hypopnea;ObstructiveApnea', 'MixedApnea', 'MixedApnea;CentralApnea', 'MixedApnea;Hypopnea', 'MixedApnea;ObstructiveApnea', 'Normal', 'ObstructiveApnea', 'ObstructiveApnea;CentralApnea', 'ObstructiveApnea;Hypopnea', 'ObstructiveApnea;MixedApnea']
+[INFO] Binary label mapping:
+       Normal -> 0
+       CentralApnea -> 1 (event)
+       CentralApnea;Hypopnea -> 1 (event)
+       CentralApnea;MixedApnea -> 1 (event)
+       CentralApnea;ObstructiveApnea -> 1 (event)
+       Hypopnea -> 1 (event)
+       Hypopnea;CentralApnea -> 1 (event)
+       Hypopnea;MixedApnea -> 1 (event)
+       Hypopnea;ObstructiveApnea -> 1 (event)
+       MixedApnea -> 1 (event)
+       MixedApnea;CentralApnea -> 1 (event)
+       MixedApnea;Hypopnea -> 1 (event)
+       MixedApnea;ObstructiveApnea -> 1 (event)
+       ObstructiveApnea -> 1 (event)
+       ObstructiveApnea;CentralApnea -> 1 (event)
+       ObstructiveApnea;Hypopnea -> 1 (event)
+       ObstructiveApnea;MixedApnea -> 1 (event)
+
+[INFO] Train segments: 88865
+[INFO] Val segments:   20933
+[INFO] Test segments:  12968
+[INFO] Train negatives (0): 34881
+[INFO] Train positives (1): 53984
+[INFO] pos_weight = 0.6461
+[INFO] Sequence feature dimension: 192
+
+[INFO] Model architecture (MALE):
+TinyMelTransformer(
+  (proj): Linear(in_features=192, out_features=64, bias=True)
+  (pos_encoder): PositionalEncoding(
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+  (transformer): TransformerEncoder(
+    (layers): ModuleList(
+      (0-1): 2 x TransformerEncoderLayer(
+        (self_attn): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=64, out_features=64, bias=True)
+        )
+        (linear1): Linear(in_features=64, out_features=128, bias=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+        (linear2): Linear(in_features=128, out_features=64, bias=True)
+        (norm1): LayerNorm((64,), eps=1e-05, elementwise_affine=True)
+        (norm2): LayerNorm((64,), eps=1e-05, elementwise_affine=True)
+        (dropout1): Dropout(p=0.1, inplace=False)
+        (dropout2): Dropout(p=0.1, inplace=False)
+      )
+    )
+  )
+  (classifier): Sequential(
+    (0): Linear(in_features=64, out_features=64, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.3, inplace=False)
+    (3): Linear(in_features=64, out_features=1, bias=True)
+  )
+)
+
+=== Epoch 1/20 (MALE) ===
+[Epoch 1] Batch 200/2778 - Loss: 0.4712
+[Epoch 1] Batch 400/2778 - Loss: 0.4637
+[Epoch 1] Batch 600/2778 - Loss: 0.4417
+[Epoch 1] Batch 800/2778 - Loss: 0.4771
+[Epoch 1] Batch 1000/2778 - Loss: 0.4345
+[Epoch 1] Batch 1200/2778 - Loss: 0.5626
+[Epoch 1] Batch 1400/2778 - Loss: 0.4302
+[Epoch 1] Batch 1600/2778 - Loss: 0.3790
+[Epoch 1] Batch 1800/2778 - Loss: 0.3824
+[Epoch 1] Batch 2000/2778 - Loss: 0.4043
+[Epoch 1] Batch 2200/2778 - Loss: 0.4833
+[Epoch 1] Batch 2400/2778 - Loss: 0.4861
+[Epoch 1] Batch 2600/2778 - Loss: 0.4516
+[Epoch 1] Batch 2778/2778 - Loss: 0.6026
+[TRAIN] Loss: 0.4341
+[VAL] Accuracy: 0.7480
+[VAL] ROC-AUC: 0.8217
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7063    0.8696    0.7795     10723
+         1.0     0.8192    0.6203    0.7060     10210
+
+    accuracy                         0.7480     20933
+   macro avg     0.7628    0.7450    0.7428     20933
+weighted avg     0.7614    0.7480    0.7437     20933
+
+[INFO] New best val AUC (male): 0.8217 at epoch 1
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch1.png
+
+=== Epoch 2/20 (MALE) ===
+[Epoch 2] Batch 200/2778 - Loss: 0.5340
+[Epoch 2] Batch 400/2778 - Loss: 0.3694
+[Epoch 2] Batch 600/2778 - Loss: 0.4357
+[Epoch 2] Batch 800/2778 - Loss: 0.4090
+[Epoch 2] Batch 1000/2778 - Loss: 0.4858
+[Epoch 2] Batch 1200/2778 - Loss: 0.3372
+[Epoch 2] Batch 1400/2778 - Loss: 0.4197
+[Epoch 2] Batch 1600/2778 - Loss: 0.4005
+[Epoch 2] Batch 1800/2778 - Loss: 0.3562
+[Epoch 2] Batch 2000/2778 - Loss: 0.3850
+[Epoch 2] Batch 2200/2778 - Loss: 0.4141
+[Epoch 2] Batch 2400/2778 - Loss: 0.3560
+[Epoch 2] Batch 2600/2778 - Loss: 0.2395
+[Epoch 2] Batch 2778/2778 - Loss: 0.0340
+[TRAIN] Loss: 0.3872
+[VAL] Accuracy: 0.7457
+[VAL] ROC-AUC: 0.8363
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7813    0.6993    0.7381     10723
+         1.0     0.7156    0.7944    0.7529     10210
+
+    accuracy                         0.7457     20933
+   macro avg     0.7484    0.7469    0.7455     20933
+weighted avg     0.7492    0.7457    0.7453     20933
+
+[INFO] New best val AUC (male): 0.8363 at epoch 2
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch2.png
+
+=== Epoch 3/20 (MALE) ===
+[Epoch 3] Batch 200/2778 - Loss: 0.3464
+[Epoch 3] Batch 400/2778 - Loss: 0.3107
+[Epoch 3] Batch 600/2778 - Loss: 0.2145
+[Epoch 3] Batch 800/2778 - Loss: 0.2846
+[Epoch 3] Batch 1000/2778 - Loss: 0.3409
+[Epoch 3] Batch 1200/2778 - Loss: 0.2519
+[Epoch 3] Batch 1400/2778 - Loss: 0.3812
+[Epoch 3] Batch 1600/2778 - Loss: 0.3641
+[Epoch 3] Batch 1800/2778 - Loss: 0.3753
+[Epoch 3] Batch 2000/2778 - Loss: 0.3498
+[Epoch 3] Batch 2200/2778 - Loss: 0.3717
+[Epoch 3] Batch 2400/2778 - Loss: 0.3049
+[Epoch 3] Batch 2600/2778 - Loss: 0.2924
+[Epoch 3] Batch 2778/2778 - Loss: 0.0487
+[TRAIN] Loss: 0.3613
+[VAL] Accuracy: 0.7631
+[VAL] ROC-AUC: 0.8397
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7603    0.7849    0.7724     10723
+         1.0     0.7662    0.7402    0.7530     10210
+
+    accuracy                         0.7631     20933
+   macro avg     0.7633    0.7626    0.7627     20933
+weighted avg     0.7632    0.7631    0.7629     20933
+
+[INFO] New best val AUC (male): 0.8397 at epoch 3
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch3.png
+
+=== Epoch 4/20 (MALE) ===
+[Epoch 4] Batch 200/2778 - Loss: 0.2534
+[Epoch 4] Batch 400/2778 - Loss: 0.3308
+[Epoch 4] Batch 600/2778 - Loss: 0.3077
+[Epoch 4] Batch 800/2778 - Loss: 0.4376
+[Epoch 4] Batch 1000/2778 - Loss: 0.4191
+[Epoch 4] Batch 1200/2778 - Loss: 0.3043
+[Epoch 4] Batch 1400/2778 - Loss: 0.4144
+[Epoch 4] Batch 1600/2778 - Loss: 0.4600
+[Epoch 4] Batch 1800/2778 - Loss: 0.2449
+[Epoch 4] Batch 2000/2778 - Loss: 0.3612
+[Epoch 4] Batch 2200/2778 - Loss: 0.3415
+[Epoch 4] Batch 2400/2778 - Loss: 0.3685
+[Epoch 4] Batch 2600/2778 - Loss: 0.3246
+[Epoch 4] Batch 2778/2778 - Loss: 0.0164
+[TRAIN] Loss: 0.3415
+[VAL] Accuracy: 0.7739
+[VAL] ROC-AUC: 0.8515
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7347    0.8745    0.7985     10723
+         1.0     0.8353    0.6684    0.7425     10210
+
+    accuracy                         0.7739     20933
+   macro avg     0.7850    0.7714    0.7705     20933
+weighted avg     0.7837    0.7739    0.7712     20933
+
+[INFO] New best val AUC (male): 0.8515 at epoch 4
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch4.png
+
+=== Epoch 5/20 (MALE) ===
+[Epoch 5] Batch 200/2778 - Loss: 0.2355
+[Epoch 5] Batch 400/2778 - Loss: 0.4670
+[Epoch 5] Batch 600/2778 - Loss: 0.3847
+[Epoch 5] Batch 800/2778 - Loss: 0.3003
+[Epoch 5] Batch 1000/2778 - Loss: 0.3352
+[Epoch 5] Batch 1200/2778 - Loss: 0.3160
+[Epoch 5] Batch 1400/2778 - Loss: 0.4601
+[Epoch 5] Batch 1600/2778 - Loss: 0.2797
+[Epoch 5] Batch 1800/2778 - Loss: 0.3137
+[Epoch 5] Batch 2000/2778 - Loss: 0.2753
+[Epoch 5] Batch 2200/2778 - Loss: 0.3341
+[Epoch 5] Batch 2400/2778 - Loss: 0.2616
+[Epoch 5] Batch 2600/2778 - Loss: 0.4380
+[Epoch 5] Batch 2778/2778 - Loss: 0.0534
+[TRAIN] Loss: 0.3284
+[VAL] Accuracy: 0.7538
+[VAL] ROC-AUC: 0.8426
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7785    0.7258    0.7513     10723
+         1.0     0.7312    0.7832    0.7563     10210
+
+    accuracy                         0.7538     20933
+   macro avg     0.7548    0.7545    0.7538     20933
+weighted avg     0.7554    0.7538    0.7537     20933
+
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch5.png
+
+=== Epoch 6/20 (MALE) ===
+[Epoch 6] Batch 200/2778 - Loss: 0.4573
+[Epoch 6] Batch 400/2778 - Loss: 0.2469
+[Epoch 6] Batch 600/2778 - Loss: 0.2864
+[Epoch 6] Batch 800/2778 - Loss: 0.5876
+[Epoch 6] Batch 1000/2778 - Loss: 0.3456
+[Epoch 6] Batch 1200/2778 - Loss: 0.3645
+[Epoch 6] Batch 1400/2778 - Loss: 0.2590
+[Epoch 6] Batch 1600/2778 - Loss: 0.2759
+[Epoch 6] Batch 1800/2778 - Loss: 0.2014
+[Epoch 6] Batch 2000/2778 - Loss: 0.3521
+[Epoch 6] Batch 2200/2778 - Loss: 0.2685
+[Epoch 6] Batch 2400/2778 - Loss: 0.3149
+[Epoch 6] Batch 2600/2778 - Loss: 0.2136
+[Epoch 6] Batch 2778/2778 - Loss: 0.1806
+[TRAIN] Loss: 0.3195
+[VAL] Accuracy: 0.7670
+[VAL] ROC-AUC: 0.8480
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7206    0.8904    0.7966     10723
+         1.0     0.8471    0.6374    0.7274     10210
+
+    accuracy                         0.7670     20933
+   macro avg     0.7838    0.7639    0.7620     20933
+weighted avg     0.7823    0.7670    0.7628     20933
+
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch6.png
+
+=== Epoch 7/20 (MALE) ===
+[Epoch 7] Batch 200/2778 - Loss: 0.5882
+[Epoch 7] Batch 400/2778 - Loss: 0.3468
+[Epoch 7] Batch 600/2778 - Loss: 0.2834
+[Epoch 7] Batch 800/2778 - Loss: 0.3711
+[Epoch 7] Batch 1000/2778 - Loss: 0.3491
+[Epoch 7] Batch 1200/2778 - Loss: 0.3392
+[Epoch 7] Batch 1400/2778 - Loss: 0.2960
+[Epoch 7] Batch 1600/2778 - Loss: 0.3634
+[Epoch 7] Batch 1800/2778 - Loss: 0.3270
+[Epoch 7] Batch 2000/2778 - Loss: 0.4291
+[Epoch 7] Batch 2200/2778 - Loss: 0.2293
+[Epoch 7] Batch 2400/2778 - Loss: 0.4827
+[Epoch 7] Batch 2600/2778 - Loss: 0.3625
+[Epoch 7] Batch 2778/2778 - Loss: 0.1116
+[TRAIN] Loss: 0.3122
+[VAL] Accuracy: 0.7766
+[VAL] ROC-AUC: 0.8565
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7370    0.8767    0.8008     10723
+         1.0     0.8383    0.6714    0.7456     10210
+
+    accuracy                         0.7766     20933
+   macro avg     0.7877    0.7741    0.7732     20933
+weighted avg     0.7864    0.7766    0.7739     20933
+
+[INFO] New best val AUC (male): 0.8565 at epoch 7
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch7.png
+
+=== Epoch 8/20 (MALE) ===
+[Epoch 8] Batch 200/2778 - Loss: 0.3659
+[Epoch 8] Batch 400/2778 - Loss: 0.2898
+[Epoch 8] Batch 600/2778 - Loss: 0.2697
+[Epoch 8] Batch 800/2778 - Loss: 0.5486
+[Epoch 8] Batch 1000/2778 - Loss: 0.3301
+[Epoch 8] Batch 1200/2778 - Loss: 0.3376
+[Epoch 8] Batch 1400/2778 - Loss: 0.3229
+[Epoch 8] Batch 1600/2778 - Loss: 0.3150
+[Epoch 8] Batch 1800/2778 - Loss: 0.2442
+[Epoch 8] Batch 2000/2778 - Loss: 0.2700
+[Epoch 8] Batch 2200/2778 - Loss: 0.1867
+[Epoch 8] Batch 2400/2778 - Loss: 0.2632
+[Epoch 8] Batch 2600/2778 - Loss: 0.2420
+[Epoch 8] Batch 2778/2778 - Loss: 0.1710
+[TRAIN] Loss: 0.3062
+[VAL] Accuracy: 0.7746
+[VAL] ROC-AUC: 0.8534
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7816    0.7770    0.7793     10723
+         1.0     0.7673    0.7720    0.7696     10210
+
+    accuracy                         0.7746     20933
+   macro avg     0.7744    0.7745    0.7745     20933
+weighted avg     0.7746    0.7746    0.7746     20933
+
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch8.png
+
+=== Epoch 9/20 (MALE) ===
+[Epoch 9] Batch 200/2778 - Loss: 0.3663
+[Epoch 9] Batch 400/2778 - Loss: 0.3052
+[Epoch 9] Batch 600/2778 - Loss: 0.2981
+[Epoch 9] Batch 800/2778 - Loss: 0.3513
+[Epoch 9] Batch 1000/2778 - Loss: 0.2722
+[Epoch 9] Batch 1200/2778 - Loss: 0.3085
+[Epoch 9] Batch 1400/2778 - Loss: 0.3572
+[Epoch 9] Batch 1600/2778 - Loss: 0.3644
+[Epoch 9] Batch 1800/2778 - Loss: 0.3716
+[Epoch 9] Batch 2000/2778 - Loss: 0.3603
+[Epoch 9] Batch 2200/2778 - Loss: 0.3220
+[Epoch 9] Batch 2400/2778 - Loss: 0.2565
+[Epoch 9] Batch 2600/2778 - Loss: 0.2500
+[Epoch 9] Batch 2778/2778 - Loss: 0.1366
+[TRAIN] Loss: 0.2994
+[VAL] Accuracy: 0.7313
+[VAL] ROC-AUC: 0.8508
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.6656    0.9556    0.7847     10723
+         1.0     0.9140    0.4958    0.6429     10210
+
+    accuracy                         0.7313     20933
+   macro avg     0.7898    0.7257    0.7138     20933
+weighted avg     0.7868    0.7313    0.7155     20933
+
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch9.png
+
+=== Epoch 10/20 (MALE) ===
+[Epoch 10] Batch 200/2778 - Loss: 0.3444
+[Epoch 10] Batch 400/2778 - Loss: 0.2948
+[Epoch 10] Batch 600/2778 - Loss: 0.2971
+[Epoch 10] Batch 800/2778 - Loss: 0.2674
+[Epoch 10] Batch 1000/2778 - Loss: 0.4285
+[Epoch 10] Batch 1200/2778 - Loss: 0.3441
+[Epoch 10] Batch 1400/2778 - Loss: 0.4141
+[Epoch 10] Batch 1600/2778 - Loss: 0.2601
+[Epoch 10] Batch 1800/2778 - Loss: 0.2405
+[Epoch 10] Batch 2000/2778 - Loss: 0.5403
+[Epoch 10] Batch 2200/2778 - Loss: 0.2601
+[Epoch 10] Batch 2400/2778 - Loss: 0.3419
+[Epoch 10] Batch 2600/2778 - Loss: 0.3327
+[Epoch 10] Batch 2778/2778 - Loss: 0.1962
+[TRAIN] Loss: 0.2953
+[VAL] Accuracy: 0.7647
+[VAL] ROC-AUC: 0.8433
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7727    0.7660    0.7694     10723
+         1.0     0.7565    0.7634    0.7599     10210
+
+    accuracy                         0.7647     20933
+   macro avg     0.7646    0.7647    0.7646     20933
+weighted avg     0.7648    0.7647    0.7647     20933
+
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch10.png
+
+=== Epoch 11/20 (MALE) ===
+[Epoch 11] Batch 200/2778 - Loss: 0.3532
+[Epoch 11] Batch 400/2778 - Loss: 0.4519
+[Epoch 11] Batch 600/2778 - Loss: 0.4830
+[Epoch 11] Batch 800/2778 - Loss: 0.3780
+[Epoch 11] Batch 1000/2778 - Loss: 0.3914
+[Epoch 11] Batch 1200/2778 - Loss: 0.2752
+[Epoch 11] Batch 1400/2778 - Loss: 0.1436
+[Epoch 11] Batch 1600/2778 - Loss: 0.2532
+[Epoch 11] Batch 1800/2778 - Loss: 0.2384
+[Epoch 11] Batch 2000/2778 - Loss: 0.2013
+[Epoch 11] Batch 2200/2778 - Loss: 0.5185
+[Epoch 11] Batch 2400/2778 - Loss: 0.3772
+[Epoch 11] Batch 2600/2778 - Loss: 0.2482
+[Epoch 11] Batch 2778/2778 - Loss: 0.2596
+[TRAIN] Loss: 0.2910
+[VAL] Accuracy: 0.7654
+[VAL] ROC-AUC: 0.8517
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7902    0.7379    0.7632     10723
+         1.0     0.7427    0.7942    0.7676     10210
+
+    accuracy                         0.7654     20933
+   macro avg     0.7664    0.7661    0.7654     20933
+weighted avg     0.7670    0.7654    0.7653     20933
+
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch11.png
+
+=== Epoch 12/20 (MALE) ===
+[Epoch 12] Batch 200/2778 - Loss: 0.1804
+[Epoch 12] Batch 400/2778 - Loss: 0.1548
+[Epoch 12] Batch 600/2778 - Loss: 0.2586
+[Epoch 12] Batch 800/2778 - Loss: 0.2616
+[Epoch 12] Batch 1000/2778 - Loss: 0.3171
+[Epoch 12] Batch 1200/2778 - Loss: 0.3031
+[Epoch 12] Batch 1400/2778 - Loss: 0.2553
+[Epoch 12] Batch 1600/2778 - Loss: 0.3759
+[Epoch 12] Batch 1800/2778 - Loss: 0.2737
+[Epoch 12] Batch 2000/2778 - Loss: 0.3484
+[Epoch 12] Batch 2200/2778 - Loss: 0.2327
+[Epoch 12] Batch 2400/2778 - Loss: 0.2166
+[Epoch 12] Batch 2600/2778 - Loss: 0.3460
+[Epoch 12] Batch 2778/2778 - Loss: 0.3696
+[TRAIN] Loss: 0.2863
+[VAL] Accuracy: 0.7563
+[VAL] ROC-AUC: 0.8476
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7880    0.7172    0.7509     10723
+         1.0     0.7286    0.7974    0.7614     10210
+
+    accuracy                         0.7563     20933
+   macro avg     0.7583    0.7573    0.7562     20933
+weighted avg     0.7590    0.7563    0.7560     20933
+
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch12.png
+
+=== Epoch 13/20 (MALE) ===
+[Epoch 13] Batch 200/2778 - Loss: 0.2420
+[Epoch 13] Batch 400/2778 - Loss: 0.2255
+[Epoch 13] Batch 600/2778 - Loss: 0.2634
+[Epoch 13] Batch 800/2778 - Loss: 0.3322
+[Epoch 13] Batch 1000/2778 - Loss: 0.3870
+[Epoch 13] Batch 1200/2778 - Loss: 0.2994
+[Epoch 13] Batch 1400/2778 - Loss: 0.2328
+[Epoch 13] Batch 1600/2778 - Loss: 0.3966
+[Epoch 13] Batch 1800/2778 - Loss: 0.2261
+[Epoch 13] Batch 2000/2778 - Loss: 0.1700
+[Epoch 13] Batch 2200/2778 - Loss: 0.2625
+[Epoch 13] Batch 2400/2778 - Loss: 0.3087
+[Epoch 13] Batch 2600/2778 - Loss: 0.3016
+[Epoch 13] Batch 2778/2778 - Loss: 0.6760
+[TRAIN] Loss: 0.2821
+[VAL] Accuracy: 0.7522
+[VAL] ROC-AUC: 0.8387
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.6978    0.9106    0.7901     10723
+         1.0     0.8618    0.5859    0.6976     10210
+
+    accuracy                         0.7522     20933
+   macro avg     0.7798    0.7482    0.7438     20933
+weighted avg     0.7778    0.7522    0.7450     20933
+
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch13.png
+
+=== Epoch 14/20 (MALE) ===
+[Epoch 14] Batch 200/2778 - Loss: 0.3761
+[Epoch 14] Batch 400/2778 - Loss: 0.3329
+[Epoch 14] Batch 600/2778 - Loss: 0.2237
+[Epoch 14] Batch 800/2778 - Loss: 0.2464
+[Epoch 14] Batch 1000/2778 - Loss: 0.4034
+[Epoch 14] Batch 1200/2778 - Loss: 0.2689
+[Epoch 14] Batch 1400/2778 - Loss: 0.3050
+[Epoch 14] Batch 1600/2778 - Loss: 0.1738
+[Epoch 14] Batch 1800/2778 - Loss: 0.3099
+[Epoch 14] Batch 2000/2778 - Loss: 0.1979
+[Epoch 14] Batch 2200/2778 - Loss: 0.3256
+[Epoch 14] Batch 2400/2778 - Loss: 0.2948
+[Epoch 14] Batch 2600/2778 - Loss: 0.4319
+[Epoch 14] Batch 2778/2778 - Loss: 0.0606
+[TRAIN] Loss: 0.2792
+[VAL] Accuracy: 0.7696
+[VAL] ROC-AUC: 0.8531
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7831    0.7611    0.7719     10723
+         1.0     0.7563    0.7786    0.7673     10210
+
+    accuracy                         0.7696     20933
+   macro avg     0.7697    0.7699    0.7696     20933
+weighted avg     0.7700    0.7696    0.7697     20933
+
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch14.png
+
+=== Epoch 15/20 (MALE) ===
+[Epoch 15] Batch 200/2778 - Loss: 0.1735
+[Epoch 15] Batch 400/2778 - Loss: 0.2880
+[Epoch 15] Batch 600/2778 - Loss: 0.2662
+[Epoch 15] Batch 800/2778 - Loss: 0.1884
+[Epoch 15] Batch 1000/2778 - Loss: 0.2008
+[Epoch 15] Batch 1200/2778 - Loss: 0.3502
+[Epoch 15] Batch 1400/2778 - Loss: 0.2142
+[Epoch 15] Batch 1600/2778 - Loss: 0.3866
+[Epoch 15] Batch 1800/2778 - Loss: 0.1906
+[Epoch 15] Batch 2000/2778 - Loss: 0.3225
+[Epoch 15] Batch 2200/2778 - Loss: 0.2850
+[Epoch 15] Batch 2400/2778 - Loss: 0.2286
+[Epoch 15] Batch 2600/2778 - Loss: 0.3238
+[Epoch 15] Batch 2778/2778 - Loss: 0.3773
+[TRAIN] Loss: 0.2758
+[VAL] Accuracy: 0.7652
+[VAL] ROC-AUC: 0.8445
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7268    0.8679    0.7911     10723
+         1.0     0.8258    0.6573    0.7320     10210
+
+    accuracy                         0.7652     20933
+   macro avg     0.7763    0.7626    0.7615     20933
+weighted avg     0.7751    0.7652    0.7623     20933
+
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch15.png
+
+=== Epoch 16/20 (MALE) ===
+[Epoch 16] Batch 200/2778 - Loss: 0.3951
+[Epoch 16] Batch 400/2778 - Loss: 0.1942
+[Epoch 16] Batch 600/2778 - Loss: 0.2531
+[Epoch 16] Batch 800/2778 - Loss: 0.3676
+[Epoch 16] Batch 1000/2778 - Loss: 0.2383
+[Epoch 16] Batch 1200/2778 - Loss: 0.2303
+[Epoch 16] Batch 1400/2778 - Loss: 0.2358
+[Epoch 16] Batch 1600/2778 - Loss: 0.2726
+[Epoch 16] Batch 1800/2778 - Loss: 0.3154
+[Epoch 16] Batch 2000/2778 - Loss: 0.3733
+[Epoch 16] Batch 2200/2778 - Loss: 0.3110
+[Epoch 16] Batch 2400/2778 - Loss: 0.2808
+[Epoch 16] Batch 2600/2778 - Loss: 0.1763
+[Epoch 16] Batch 2778/2778 - Loss: 0.0353
+[TRAIN] Loss: 0.2724
+[VAL] Accuracy: 0.7449
+[VAL] ROC-AUC: 0.8285
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.6976    0.8860    0.7806     10723
+         1.0     0.8329    0.5967    0.6953     10210
+
+    accuracy                         0.7449     20933
+   macro avg     0.7653    0.7414    0.7380     20933
+weighted avg     0.7636    0.7449    0.7390     20933
+
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch16.png
+
+=== Epoch 17/20 (MALE) ===
+[Epoch 17] Batch 200/2778 - Loss: 0.1998
+[Epoch 17] Batch 400/2778 - Loss: 0.4432
+[Epoch 17] Batch 600/2778 - Loss: 0.2243
+[Epoch 17] Batch 800/2778 - Loss: 0.3217
+[Epoch 17] Batch 1000/2778 - Loss: 0.1927
+[Epoch 17] Batch 1200/2778 - Loss: 0.1520
+[Epoch 17] Batch 1400/2778 - Loss: 0.1770
+[Epoch 17] Batch 1600/2778 - Loss: 0.2252
+[Epoch 17] Batch 1800/2778 - Loss: 0.3423
+[Epoch 17] Batch 2000/2778 - Loss: 0.3220
+[Epoch 17] Batch 2200/2778 - Loss: 0.2429
+[Epoch 17] Batch 2400/2778 - Loss: 0.3634
+[Epoch 17] Batch 2600/2778 - Loss: 0.2298
+[Epoch 17] Batch 2778/2778 - Loss: 0.0260
+[TRAIN] Loss: 0.2686
+[VAL] Accuracy: 0.7718
+[VAL] ROC-AUC: 0.8537
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7250    0.8934    0.8004     10723
+         1.0     0.8519    0.6441    0.7336     10210
+
+    accuracy                         0.7718     20933
+   macro avg     0.7885    0.7687    0.7670     20933
+weighted avg     0.7869    0.7718    0.7678     20933
+
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch17.png
+
+=== Epoch 18/20 (MALE) ===
+[Epoch 18] Batch 200/2778 - Loss: 0.2343
+[Epoch 18] Batch 400/2778 - Loss: 0.1786
+[Epoch 18] Batch 600/2778 - Loss: 0.3138
+[Epoch 18] Batch 800/2778 - Loss: 0.3099
+[Epoch 18] Batch 1000/2778 - Loss: 0.4231
+[Epoch 18] Batch 1200/2778 - Loss: 0.3009
+[Epoch 18] Batch 1400/2778 - Loss: 0.4608
+[Epoch 18] Batch 1600/2778 - Loss: 0.3963
+[Epoch 18] Batch 1800/2778 - Loss: 0.4673
+[Epoch 18] Batch 2000/2778 - Loss: 0.0913
+[Epoch 18] Batch 2200/2778 - Loss: 0.3061
+[Epoch 18] Batch 2400/2778 - Loss: 0.2447
+[Epoch 18] Batch 2600/2778 - Loss: 0.2324
+[Epoch 18] Batch 2778/2778 - Loss: 0.1491
+[TRAIN] Loss: 0.2657
+[VAL] Accuracy: 0.7771
+[VAL] ROC-AUC: 0.8592
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7337    0.8868    0.8030     10723
+         1.0     0.8477    0.6619    0.7434     10210
+
+    accuracy                         0.7771     20933
+   macro avg     0.7907    0.7743    0.7732     20933
+weighted avg     0.7893    0.7771    0.7739     20933
+
+[INFO] New best val AUC (male): 0.8592 at epoch 18
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch18.png
+
+=== Epoch 19/20 (MALE) ===
+[Epoch 19] Batch 200/2778 - Loss: 0.1538
+[Epoch 19] Batch 400/2778 - Loss: 0.0764
+[Epoch 19] Batch 600/2778 - Loss: 0.1954
+[Epoch 19] Batch 800/2778 - Loss: 0.2731
+[Epoch 19] Batch 1000/2778 - Loss: 0.2495
+[Epoch 19] Batch 1200/2778 - Loss: 0.2144
+[Epoch 19] Batch 1400/2778 - Loss: 0.1658
+[Epoch 19] Batch 1600/2778 - Loss: 0.2456
+[Epoch 19] Batch 1800/2778 - Loss: 0.2017
+[Epoch 19] Batch 2000/2778 - Loss: 0.3488
+[Epoch 19] Batch 2200/2778 - Loss: 0.3946
+[Epoch 19] Batch 2400/2778 - Loss: 0.3703
+[Epoch 19] Batch 2600/2778 - Loss: 0.3821
+[Epoch 19] Batch 2778/2778 - Loss: 0.2725
+[TRAIN] Loss: 0.2646
+[VAL] Accuracy: 0.7653
+[VAL] ROC-AUC: 0.8424
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7238    0.8761    0.7927     10723
+         1.0     0.8329    0.6489    0.7295     10210
+
+    accuracy                         0.7653     20933
+   macro avg     0.7783    0.7625    0.7611     20933
+weighted avg     0.7770    0.7653    0.7618     20933
+
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch19.png
+
+=== Epoch 20/20 (MALE) ===
+[Epoch 20] Batch 200/2778 - Loss: 0.3314
+[Epoch 20] Batch 400/2778 - Loss: 0.3043
+[Epoch 20] Batch 600/2778 - Loss: 0.2884
+[Epoch 20] Batch 800/2778 - Loss: 0.1948
+[Epoch 20] Batch 1000/2778 - Loss: 0.2264
+[Epoch 20] Batch 1200/2778 - Loss: 0.3216
+[Epoch 20] Batch 1400/2778 - Loss: 0.3365
+[Epoch 20] Batch 1600/2778 - Loss: 0.1701
+[Epoch 20] Batch 1800/2778 - Loss: 0.2429
+[Epoch 20] Batch 2000/2778 - Loss: 0.3797
+[Epoch 20] Batch 2200/2778 - Loss: 0.3074
+[Epoch 20] Batch 2400/2778 - Loss: 0.2188
+[Epoch 20] Batch 2600/2778 - Loss: 0.3660
+[Epoch 20] Batch 2778/2778 - Loss: 0.1667
+[TRAIN] Loss: 0.2625
+[VAL] Accuracy: 0.7632
+[VAL] ROC-AUC: 0.8472
+[VAL] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7157    0.8924    0.7943     10723
+         1.0     0.8474    0.6276    0.7211     10210
+
+    accuracy                         0.7632     20933
+   macro avg     0.7815    0.7600    0.7577     20933
+weighted avg     0.7799    0.7632    0.7586     20933
+
+[INFO] Saved confusion matrix to confusion_matrix_val_male_transformer_epoch20.png
+
+[INFO] Loaded best MALE model with val AUC = 0.8592
+
+[INFO] Evaluating on TEST set (male)...
+[TEST] Accuracy: 0.8056
+[TEST] ROC-AUC: 0.8941
+[TEST] Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7116    0.8288    0.7658      4972
+         1.0     0.8814    0.7911    0.8338      7996
+
+    accuracy                         0.8056     12968
+   macro avg     0.7965    0.8100    0.7998     12968
+weighted avg     0.8163    0.8056    0.8077     12968
+
+[INFO] Saved confusion matrix to confusion_matrix_test_male_transformer.png
+
+[INFO] Done (male).
+Job finished at Tue Dec  2 16:54:26 MST 2025

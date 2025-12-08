@@ -1,0 +1,193 @@
+All logs will be stored in ./Logs
+Job started on sc090 at Sat Nov 22 16:00:27 MST 2025
+SLURM_JOB_ID: 40171208
+[INFO] Using device: cpu
+[INFO] Total mel files found: 71
+[INFO] Usable (mel, label) pairs: 71
+[INFO] Files total: 71
+[INFO] Train files: 49
+[INFO] Val files:   10
+[INFO] Test files:  12
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001258-100507.npy: 6034 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001202-100507.npy: 4385 segments, shape=(3, 64, 901)
+[WARN] Length mismatch:
+       mel: /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001556-100507.npy -> 8146
+       lab: /scratch/sshuvo13/project_shared_folder_bspml_1/rml_analysis/segment_csv_data/labels_of_each_segment/00001556-100507_segments_labels.npy -> 9346
+       Using first 8146 segments.
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001556-100507.npy: 8146 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001247-100507.npy: 4877 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001419-100507.npy: 6307 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001097-100507.npy: 6411 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001358-100507.npy: 6644 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001459-100507.npy: 6619 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001073-100507.npy: 4853 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001516-100507.npy: 7017 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001486-100507.npy: 6648 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001683-100507.npy: 6942 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001186-100507.npy: 4809 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001222-100507.npy: 6481 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001191-100507.npy: 3970 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001478-100507.npy: 4200 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001388-100507.npy: 5302 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001474-100507.npy: 6405 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001615-100507.npy: 8738 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001510-100507.npy: 3695 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001306-100507.npy: 6155 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001442-100507.npy: 5255 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001500-100507.npy: 7470 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001250-100507.npy: 8760 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001550-100507.npy: 4637 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001118-100507.npy: 4517 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001206-100507.npy: 5864 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001287-100507.npy: 9807 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001414-100507.npy: 4646 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001626-100507.npy: 8119 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001689-100507.npy: 6887 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001254-100507.npy: 5651 segments, shape=(3, 64, 901)
+[WARN] Skipping MEL file (corrupted): /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001607-100507.npy
+       Reason: UnpicklingError("Failed to interpret file '/scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001607-100507.npy' as a pickle")
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001093-100507.npy: 5376 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001554-100507.npy: 7081 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001577-100507.npy: 8524 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001126-100507.npy: 5180 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001432-100507.npy: 5344 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001234-100507.npy: 4895 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001619-100507.npy: 8855 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001153-100507.npy: 5441 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00000995-100507.npy: 5962 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001643-100507.npy: 6644 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001623-100507.npy: 8198 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001679-100507.npy: 6580 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001568-100507.npy: 7063 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001263-100507.npy: 6343 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001367-100507.npy: 5056 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001451-100507.npy: 6047 segments, shape=(3, 64, 901)
+[INFO] Total usable segments: 298840
+[INFO] Skipped corrupted file pairs:
+       MEL: /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001607-100507.npy
+       LAB: /scratch/sshuvo13/project_shared_folder_bspml_1/rml_analysis/segment_csv_data/labels_of_each_segment/00001607-100507_segments_labels.npy
+[INFO] Found label classes: ['CentralApnea', 'Hypopnea', 'Hypopnea;ObstructiveApnea', 'MixedApnea', 'MixedApnea;Hypopnea', 'Normal', 'ObstructiveApnea', 'ObstructiveApnea;Hypopnea']
+[INFO] Binary mapping:
+       Normal -> 0
+       CentralApnea -> 1 (event)
+       Hypopnea -> 1 (event)
+       Hypopnea;ObstructiveApnea -> 1 (event)
+       MixedApnea -> 1 (event)
+       MixedApnea;Hypopnea -> 1 (event)
+       ObstructiveApnea -> 1 (event)
+       ObstructiveApnea;Hypopnea -> 1 (event)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001424-100507.npy: 5574 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001457-100507.npy: 4453 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001161-100507.npy: 5792 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001687-100507.npy: 7197 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001614-100507.npy: 8758 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001411-100507.npy: 7616 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001335-100507.npy: 7206 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001695-100507.npy: 6606 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001642-100507.npy: 3685 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001084-100507.npy: 7233 segments, shape=(3, 64, 901)
+[INFO] Total usable segments: 64120
+[INFO] Found label classes: ['CentralApnea', 'Hypopnea', 'Hypopnea;ObstructiveApnea', 'MixedApnea', 'Normal', 'ObstructiveApnea']
+[INFO] Binary mapping:
+       Normal -> 0
+       CentralApnea -> 1 (event)
+       Hypopnea -> 1 (event)
+       Hypopnea;ObstructiveApnea -> 1 (event)
+       MixedApnea -> 1 (event)
+       ObstructiveApnea -> 1 (event)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001016-100507.npy: 7280 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001020-100507.npy: 5504 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001282-100507.npy: 4622 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001398-100507.npy: 6443 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001157-100507.npy: 4244 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001163-100507.npy: 5243 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001198-100507.npy: 5333 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001285-100507.npy: 5010 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001320-100507.npy: 6410 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001380-100507.npy: 5261 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001069-100507.npy: 5048 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001171-100507.npy: 4197 segments, shape=(3, 64, 901)
+[INFO] Total usable segments: 64595
+[INFO] Found label classes: ['CentralApnea', 'Hypopnea', 'Hypopnea;ObstructiveApnea', 'MixedApnea', 'Normal', 'ObstructiveApnea']
+[INFO] Binary mapping:
+       Normal -> 0
+       CentralApnea -> 1 (event)
+       Hypopnea -> 1 (event)
+       Hypopnea;ObstructiveApnea -> 1 (event)
+       MixedApnea -> 1 (event)
+       ObstructiveApnea -> 1 (event)
+[INFO] Train segments: 298840
+[INFO] Val segments:   64120
+[INFO] Test segments:  64595
+[INFO] Train negatives (0): 254372
+[INFO] Train positives (1): 44468
+[INFO] pos_weight = 5.720338220743006
+[INFO] Model:
+SleepApneaCNN(
+  (block1): Sequential(
+    (0): Conv2d(3, 32, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (block2): Sequential(
+    (0): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (block3): Sequential(
+    (0): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), dilation=(2, 2))
+    (4): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU()
+    (6): AdaptiveAvgPool2d(output_size=(1, 1))
+  )
+  (classifier): Sequential(
+    (0): Flatten(start_dim=1, end_dim=-1)
+    (1): Linear(in_features=128, out_features=64, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.5, inplace=False)
+    (4): Linear(in_features=64, out_features=1, bias=True)
+  )
+)
+
+=== Epoch 1/5 ===
+[Epoch 1] Batch 100/9339 - Loss: 1.5588
+[Epoch 1] Batch 200/9339 - Loss: 0.8963
+[Epoch 1] Batch 300/9339 - Loss: 1.0602
+[Epoch 1] Batch 400/9339 - Loss: 1.0717
+[Epoch 1] Batch 500/9339 - Loss: 1.4229
+[Epoch 1] Batch 600/9339 - Loss: 1.4906
+[Epoch 1] Batch 700/9339 - Loss: 1.2482
+[Epoch 1] Batch 800/9339 - Loss: 1.5315
+[Epoch 1] Batch 900/9339 - Loss: 1.2041
+[Epoch 1] Batch 1000/9339 - Loss: 0.9659
+[Epoch 1] Batch 1100/9339 - Loss: 1.2063
+[Epoch 1] Batch 1200/9339 - Loss: 0.9805
+[Epoch 1] Batch 1300/9339 - Loss: 1.4560
+[Epoch 1] Batch 1400/9339 - Loss: 1.0917
+[Epoch 1] Batch 1500/9339 - Loss: 1.2781
+[Epoch 1] Batch 1600/9339 - Loss: 1.0406
+[Epoch 1] Batch 1700/9339 - Loss: 0.9927
+[Epoch 1] Batch 1800/9339 - Loss: 1.2777
+[Epoch 1] Batch 1900/9339 - Loss: 1.3535
+[Epoch 1] Batch 2000/9339 - Loss: 1.4490
+[Epoch 1] Batch 2100/9339 - Loss: 1.2527
+[Epoch 1] Batch 2200/9339 - Loss: 0.9043
+[Epoch 1] Batch 2300/9339 - Loss: 1.0744
+[Epoch 1] Batch 2400/9339 - Loss: 1.0758
+[Epoch 1] Batch 2500/9339 - Loss: 0.8769
+[Epoch 1] Batch 2600/9339 - Loss: 1.0197
+[Epoch 1] Batch 2700/9339 - Loss: 0.9788
+[Epoch 1] Batch 2800/9339 - Loss: 0.9713
+[Epoch 1] Batch 2900/9339 - Loss: 1.4071
+[Epoch 1] Batch 3000/9339 - Loss: 1.5643
+[Epoch 1] Batch 3100/9339 - Loss: 0.7331
+[Epoch 1] Batch 3200/9339 - Loss: 1.0464
+[Epoch 1] Batch 3300/9339 - Loss: 1.0781
+[Epoch 1] Batch 3400/9339 - Loss: 1.2475
+[Epoch 1] Batch 3500/9339 - Loss: 0.7903
+[Epoch 1] Batch 3600/9339 - Loss: 1.5235

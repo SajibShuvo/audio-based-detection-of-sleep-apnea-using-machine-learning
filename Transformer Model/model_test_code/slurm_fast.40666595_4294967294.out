@@ -1,0 +1,502 @@
+All logs will be stored in ./Logs
+Job started on sc035 at Wed Nov 26 15:26:19 MST 2025
+SLURM_JOB_ID: 40666595
+[INFO] Using device: cpu
+[INFO] Total mel files found: 71
+[INFO] Usable (mel, label) pairs: 71
+[INFO] Using only 10 female patients (files):
+       Train files: 7
+       Val files:   2
+       Test files:  1
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001258-100507.npy: 6034 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001202-100507.npy: 4385 segments, shape=(3, 64, 901)
+[WARN] Length mismatch:
+       mel: /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001556-100507.npy -> 8146
+       lab: /scratch/sshuvo13/project_shared_folder_bspml_1/rml_analysis/segment_csv_data/labels_of_each_segment/00001556-100507_segments_labels.npy -> 9346
+       Using first 8146 segments.
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001556-100507.npy: 8146 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001247-100507.npy: 4877 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001419-100507.npy: 6307 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001097-100507.npy: 6411 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001358-100507.npy: 6644 segments, shape=(3, 64, 901)
+[INFO] Total usable segments: 42804
+[INFO] Found label classes: ['CentralApnea', 'Hypopnea', 'MixedApnea', 'Normal', 'ObstructiveApnea']
+[INFO] Binary mapping:
+       Normal -> 0
+       CentralApnea -> 1 (event)
+       Hypopnea -> 1 (event)
+       MixedApnea -> 1 (event)
+       ObstructiveApnea -> 1 (event)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001459-100507.npy: 6619 segments, shape=(3, 64, 901)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001073-100507.npy: 4853 segments, shape=(3, 64, 901)
+[INFO] Total usable segments: 11472
+[INFO] Found label classes: ['CentralApnea', 'Hypopnea', 'MixedApnea', 'Normal', 'ObstructiveApnea']
+[INFO] Binary mapping:
+       Normal -> 0
+       CentralApnea -> 1 (event)
+       Hypopnea -> 1 (event)
+       MixedApnea -> 1 (event)
+       ObstructiveApnea -> 1 (event)
+[INFO] Registered /scratch/sshuvo13/project_shared_folder_bspml_1/whole_dataset_features/female/mel_spectrum/00001516-100507.npy: 7017 segments, shape=(3, 64, 901)
+[INFO] Total usable segments: 7017
+[INFO] Found label classes: ['Hypopnea', 'MixedApnea', 'Normal', 'ObstructiveApnea']
+[INFO] Binary mapping:
+       Normal -> 0
+       Hypopnea -> 1 (event)
+       MixedApnea -> 1 (event)
+       ObstructiveApnea -> 1 (event)
+[INFO] Train segments: 42804
+[INFO] Val segments:   11472
+[INFO] Test segments:  7017
+[INFO] Train negatives (0): 38457
+[INFO] Train positives (1): 4347
+[INFO] pos_weight = 8.846790890269151
+[INFO] Model:
+MelTransformer(
+  (input_proj): Linear(in_features=192, out_features=128, bias=True)
+  (encoder): TransformerEncoder(
+    (layers): ModuleList(
+      (0-2): 3 x TransformerEncoderLayer(
+        (self_attn): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=128, out_features=128, bias=True)
+        )
+        (linear1): Linear(in_features=128, out_features=256, bias=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+        (linear2): Linear(in_features=256, out_features=128, bias=True)
+        (norm1): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+        (norm2): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+        (dropout1): Dropout(p=0.1, inplace=False)
+        (dropout2): Dropout(p=0.1, inplace=False)
+      )
+    )
+  )
+  (dropout): Dropout(p=0.1, inplace=False)
+  (classifier): Linear(in_features=128, out_features=1, bias=True)
+)
+
+=== Epoch 1/8 ===
+[Epoch 1] Batch 100/2676 - Loss: 1.4169
+[Epoch 1] Batch 200/2676 - Loss: 0.9463
+[Epoch 1] Batch 300/2676 - Loss: 1.1577
+[Epoch 1] Batch 400/2676 - Loss: 1.6569
+[Epoch 1] Batch 500/2676 - Loss: 0.7384
+[Epoch 1] Batch 600/2676 - Loss: 1.2269
+[Epoch 1] Batch 700/2676 - Loss: 0.9887
+[Epoch 1] Batch 800/2676 - Loss: 2.4869
+[Epoch 1] Batch 900/2676 - Loss: 1.0578
+[Epoch 1] Batch 1000/2676 - Loss: 0.9636
+[Epoch 1] Batch 1100/2676 - Loss: 1.0279
+[Epoch 1] Batch 1200/2676 - Loss: 1.0401
+[Epoch 1] Batch 1300/2676 - Loss: 1.8237
+[Epoch 1] Batch 1400/2676 - Loss: 1.1876
+[Epoch 1] Batch 1500/2676 - Loss: 0.9190
+[Epoch 1] Batch 1600/2676 - Loss: 1.0869
+[Epoch 1] Batch 1700/2676 - Loss: 0.6456
+[Epoch 1] Batch 1800/2676 - Loss: 1.6772
+[Epoch 1] Batch 1900/2676 - Loss: 2.7413
+[Epoch 1] Batch 2000/2676 - Loss: 0.7363
+[Epoch 1] Batch 2100/2676 - Loss: 1.1183
+[Epoch 1] Batch 2200/2676 - Loss: 0.4077
+[Epoch 1] Batch 2300/2676 - Loss: 0.6767
+[Epoch 1] Batch 2400/2676 - Loss: 1.6523
+[Epoch 1] Batch 2500/2676 - Loss: 1.7940
+[Epoch 1] Batch 2600/2676 - Loss: 0.6244
+[Epoch 1] Batch 2676/2676 - Loss: 2.1939
+[VAL] Train Loss: 1.1676
+[VAL] Accuracy@0.5:     0.7063
+[VAL] BalancedAcc@0.5:  0.6373
+[VAL] ROC-AUC:         0.6888
+[VAL] Classification report (thr=0.5):
+              precision    recall  f1-score   support
+
+         0.0     0.7624    0.8270    0.7934      7823
+         1.0     0.5469    0.4475    0.4922      3649
+
+    accuracy                         0.7063     11472
+   macro avg     0.6547    0.6373    0.6428     11472
+weighted avg     0.6939    0.7063    0.6976     11472
+
+[INFO] New best val AUC: 0.6888 at epoch 1
+[INFO] Saved confusion matrix to confusion_matrix_val_female_transformer_epoch1.png
+
+=== Epoch 2/8 ===
+[Epoch 2] Batch 100/2676 - Loss: 1.2012
+[Epoch 2] Batch 200/2676 - Loss: 1.6602
+[Epoch 2] Batch 300/2676 - Loss: 0.9261
+[Epoch 2] Batch 400/2676 - Loss: 1.5914
+[Epoch 2] Batch 500/2676 - Loss: 0.4848
+[Epoch 2] Batch 600/2676 - Loss: 0.7907
+[Epoch 2] Batch 700/2676 - Loss: 1.7596
+[Epoch 2] Batch 800/2676 - Loss: 3.0092
+[Epoch 2] Batch 900/2676 - Loss: 0.9553
+[Epoch 2] Batch 1000/2676 - Loss: 1.1767
+[Epoch 2] Batch 1100/2676 - Loss: 1.0993
+[Epoch 2] Batch 1200/2676 - Loss: 2.2094
+[Epoch 2] Batch 1300/2676 - Loss: 0.7450
+[Epoch 2] Batch 1400/2676 - Loss: 0.2932
+[Epoch 2] Batch 1500/2676 - Loss: 0.9801
+[Epoch 2] Batch 1600/2676 - Loss: 1.5465
+[Epoch 2] Batch 1700/2676 - Loss: 1.5353
+[Epoch 2] Batch 1800/2676 - Loss: 0.7133
+[Epoch 2] Batch 1900/2676 - Loss: 0.5675
+[Epoch 2] Batch 2000/2676 - Loss: 0.3941
+[Epoch 2] Batch 2100/2676 - Loss: 1.0320
+[Epoch 2] Batch 2200/2676 - Loss: 1.1750
+[Epoch 2] Batch 2300/2676 - Loss: 0.3722
+[Epoch 2] Batch 2400/2676 - Loss: 0.8298
+[Epoch 2] Batch 2500/2676 - Loss: 0.8313
+[Epoch 2] Batch 2600/2676 - Loss: 0.9247
+[Epoch 2] Batch 2676/2676 - Loss: 1.6574
+[VAL] Train Loss: 1.0702
+[VAL] Accuracy@0.5:     0.7067
+[VAL] BalancedAcc@0.5:  0.5902
+[VAL] ROC-AUC:         0.6778
+[VAL] Classification report (thr=0.5):
+              precision    recall  f1-score   support
+
+         0.0     0.7278    0.9103    0.8089      7823
+         1.0     0.5841    0.2702    0.3695      3649
+
+    accuracy                         0.7067     11472
+   macro avg     0.6560    0.5902    0.5892     11472
+weighted avg     0.6821    0.7067    0.6691     11472
+
+[INFO] Saved confusion matrix to confusion_matrix_val_female_transformer_epoch2.png
+
+=== Epoch 3/8 ===
+[Epoch 3] Batch 100/2676 - Loss: 0.5028
+[Epoch 3] Batch 200/2676 - Loss: 0.5450
+[Epoch 3] Batch 300/2676 - Loss: 0.2739
+[Epoch 3] Batch 400/2676 - Loss: 1.3419
+[Epoch 3] Batch 500/2676 - Loss: 1.2427
+[Epoch 3] Batch 600/2676 - Loss: 1.0675
+[Epoch 3] Batch 700/2676 - Loss: 1.0003
+[Epoch 3] Batch 800/2676 - Loss: 0.5009
+[Epoch 3] Batch 900/2676 - Loss: 1.2499
+[Epoch 3] Batch 1000/2676 - Loss: 1.8989
+[Epoch 3] Batch 1100/2676 - Loss: 1.1799
+[Epoch 3] Batch 1200/2676 - Loss: 0.9768
+[Epoch 3] Batch 1300/2676 - Loss: 0.3335
+[Epoch 3] Batch 1400/2676 - Loss: 1.4179
+[Epoch 3] Batch 1500/2676 - Loss: 0.2925
+[Epoch 3] Batch 1600/2676 - Loss: 0.2568
+[Epoch 3] Batch 1700/2676 - Loss: 0.4340
+[Epoch 3] Batch 1800/2676 - Loss: 1.2776
+[Epoch 3] Batch 1900/2676 - Loss: 0.1864
+[Epoch 3] Batch 2000/2676 - Loss: 0.6343
+[Epoch 3] Batch 2100/2676 - Loss: 1.5458
+[Epoch 3] Batch 2200/2676 - Loss: 0.3946
+[Epoch 3] Batch 2300/2676 - Loss: 0.3901
+[Epoch 3] Batch 2400/2676 - Loss: 0.6346
+[Epoch 3] Batch 2500/2676 - Loss: 0.1844
+[Epoch 3] Batch 2600/2676 - Loss: 2.0187
+[Epoch 3] Batch 2676/2676 - Loss: 0.3711
+[VAL] Train Loss: 1.0118
+[VAL] Accuracy@0.5:     0.5680
+[VAL] BalancedAcc@0.5:  0.5840
+[VAL] ROC-AUC:         0.6211
+[VAL] Classification report (thr=0.5):
+              precision    recall  f1-score   support
+
+         0.0     0.7568    0.5401    0.6303      7823
+         1.0     0.3890    0.6278    0.4804      3649
+
+    accuracy                         0.5680     11472
+   macro avg     0.5729    0.5840    0.5554     11472
+weighted avg     0.6398    0.5680    0.5826     11472
+
+[INFO] Saved confusion matrix to confusion_matrix_val_female_transformer_epoch3.png
+
+=== Epoch 4/8 ===
+[Epoch 4] Batch 100/2676 - Loss: 0.4333
+[Epoch 4] Batch 200/2676 - Loss: 0.2318
+[Epoch 4] Batch 300/2676 - Loss: 1.4944
+[Epoch 4] Batch 400/2676 - Loss: 0.6396
+[Epoch 4] Batch 500/2676 - Loss: 0.8026
+[Epoch 4] Batch 600/2676 - Loss: 0.6027
+[Epoch 4] Batch 700/2676 - Loss: 0.4952
+[Epoch 4] Batch 800/2676 - Loss: 1.8402
+[Epoch 4] Batch 900/2676 - Loss: 1.1634
+[Epoch 4] Batch 1000/2676 - Loss: 0.3225
+[Epoch 4] Batch 1100/2676 - Loss: 0.5121
+[Epoch 4] Batch 1200/2676 - Loss: 0.4502
+[Epoch 4] Batch 1300/2676 - Loss: 1.4505
+[Epoch 4] Batch 1400/2676 - Loss: 0.4372
+[Epoch 4] Batch 1500/2676 - Loss: 0.5460
+[Epoch 4] Batch 1600/2676 - Loss: 0.2489
+[Epoch 4] Batch 1700/2676 - Loss: 1.7771
+[Epoch 4] Batch 1800/2676 - Loss: 3.0012
+[Epoch 4] Batch 1900/2676 - Loss: 1.0860
+[Epoch 4] Batch 2000/2676 - Loss: 0.1773
+[Epoch 4] Batch 2100/2676 - Loss: 1.5415
+[Epoch 4] Batch 2200/2676 - Loss: 0.9566
+[Epoch 4] Batch 2300/2676 - Loss: 0.4676
+[Epoch 4] Batch 2400/2676 - Loss: 0.5323
+[Epoch 4] Batch 2500/2676 - Loss: 0.2364
+[Epoch 4] Batch 2600/2676 - Loss: 1.2415
+[Epoch 4] Batch 2676/2676 - Loss: 1.1877
+[VAL] Train Loss: 0.9703
+[VAL] Accuracy@0.5:     0.6008
+[VAL] BalancedAcc@0.5:  0.5233
+[VAL] ROC-AUC:         0.5263
+[VAL] Classification report (thr=0.5):
+              precision    recall  f1-score   support
+
+         0.0     0.6959    0.7363    0.7155      7823
+         1.0     0.3543    0.3102    0.3308      3649
+
+    accuracy                         0.6008     11472
+   macro avg     0.5251    0.5233    0.5232     11472
+weighted avg     0.5872    0.6008    0.5932     11472
+
+[INFO] Saved confusion matrix to confusion_matrix_val_female_transformer_epoch4.png
+
+=== Epoch 5/8 ===
+[Epoch 5] Batch 100/2676 - Loss: 0.8615
+[Epoch 5] Batch 200/2676 - Loss: 2.4414
+[Epoch 5] Batch 300/2676 - Loss: 0.6058
+[Epoch 5] Batch 400/2676 - Loss: 0.7388
+[Epoch 5] Batch 500/2676 - Loss: 0.3708
+[Epoch 5] Batch 600/2676 - Loss: 0.6570
+[Epoch 5] Batch 700/2676 - Loss: 0.3607
+[Epoch 5] Batch 800/2676 - Loss: 0.6497
+[Epoch 5] Batch 900/2676 - Loss: 0.5641
+[Epoch 5] Batch 1000/2676 - Loss: 0.4674
+[Epoch 5] Batch 1100/2676 - Loss: 0.2766
+[Epoch 5] Batch 1200/2676 - Loss: 0.3697
+[Epoch 5] Batch 1300/2676 - Loss: 0.6030
+[Epoch 5] Batch 1400/2676 - Loss: 0.7770
+[Epoch 5] Batch 1500/2676 - Loss: 1.1167
+[Epoch 5] Batch 1600/2676 - Loss: 0.1003
+[Epoch 5] Batch 1700/2676 - Loss: 6.1301
+[Epoch 5] Batch 1800/2676 - Loss: 0.1518
+[Epoch 5] Batch 1900/2676 - Loss: 0.3616
+[Epoch 5] Batch 2000/2676 - Loss: 1.1878
+[Epoch 5] Batch 2100/2676 - Loss: 0.2875
+[Epoch 5] Batch 2200/2676 - Loss: 0.1892
+[Epoch 5] Batch 2300/2676 - Loss: 1.8372
+[Epoch 5] Batch 2400/2676 - Loss: 0.3962
+[Epoch 5] Batch 2500/2676 - Loss: 0.9178
+[Epoch 5] Batch 2600/2676 - Loss: 0.1793
+[Epoch 5] Batch 2676/2676 - Loss: 0.3300
+[VAL] Train Loss: 0.9156
+[VAL] Accuracy@0.5:     0.6178
+[VAL] BalancedAcc@0.5:  0.5413
+[VAL] ROC-AUC:         0.5487
+[VAL] Classification report (thr=0.5):
+              precision    recall  f1-score   support
+
+         0.0     0.7066    0.7515    0.7284      7823
+         1.0     0.3832    0.3310    0.3552      3649
+
+    accuracy                         0.6178     11472
+   macro avg     0.5449    0.5413    0.5418     11472
+weighted avg     0.6038    0.6178    0.6097     11472
+
+[INFO] Saved confusion matrix to confusion_matrix_val_female_transformer_epoch5.png
+
+=== Epoch 6/8 ===
+[Epoch 6] Batch 100/2676 - Loss: 0.1368
+[Epoch 6] Batch 200/2676 - Loss: 0.3011
+[Epoch 6] Batch 300/2676 - Loss: 2.6756
+[Epoch 6] Batch 400/2676 - Loss: 0.2461
+[Epoch 6] Batch 500/2676 - Loss: 0.2422
+[Epoch 6] Batch 600/2676 - Loss: 0.3281
+[Epoch 6] Batch 700/2676 - Loss: 0.7563
+[Epoch 6] Batch 800/2676 - Loss: 0.4229
+[Epoch 6] Batch 900/2676 - Loss: 0.3440
+[Epoch 6] Batch 1000/2676 - Loss: 0.4364
+[Epoch 6] Batch 1100/2676 - Loss: 0.5665
+[Epoch 6] Batch 1200/2676 - Loss: 0.4582
+[Epoch 6] Batch 1300/2676 - Loss: 1.2846
+[Epoch 6] Batch 1400/2676 - Loss: 3.0386
+[Epoch 6] Batch 1500/2676 - Loss: 0.3739
+[Epoch 6] Batch 1600/2676 - Loss: 2.7048
+[Epoch 6] Batch 1700/2676 - Loss: 0.4961
+[Epoch 6] Batch 1800/2676 - Loss: 1.7721
+[Epoch 6] Batch 1900/2676 - Loss: 0.8930
+[Epoch 6] Batch 2000/2676 - Loss: 1.2526
+[Epoch 6] Batch 2100/2676 - Loss: 0.5382
+[Epoch 6] Batch 2200/2676 - Loss: 0.0924
+[Epoch 6] Batch 2300/2676 - Loss: 0.6360
+[Epoch 6] Batch 2400/2676 - Loss: 1.2998
+[Epoch 6] Batch 2500/2676 - Loss: 0.3166
+[Epoch 6] Batch 2600/2676 - Loss: 0.4847
+[Epoch 6] Batch 2676/2676 - Loss: 5.0973
+[VAL] Train Loss: 0.8440
+[VAL] Accuracy@0.5:     0.6470
+[VAL] BalancedAcc@0.5:  0.5319
+[VAL] ROC-AUC:         0.5621
+[VAL] Classification report (thr=0.5):
+              precision    recall  f1-score   support
+
+         0.0     0.6986    0.8481    0.7662      7823
+         1.0     0.3985    0.2157    0.2799      3649
+
+    accuracy                         0.6470     11472
+   macro avg     0.5486    0.5319    0.5230     11472
+weighted avg     0.6032    0.6470    0.6115     11472
+
+[INFO] Saved confusion matrix to confusion_matrix_val_female_transformer_epoch6.png
+
+=== Epoch 7/8 ===
+[Epoch 7] Batch 100/2676 - Loss: 0.7319
+[Epoch 7] Batch 200/2676 - Loss: 2.0097
+[Epoch 7] Batch 300/2676 - Loss: 2.0517
+[Epoch 7] Batch 400/2676 - Loss: 1.4488
+[Epoch 7] Batch 500/2676 - Loss: 0.9543
+[Epoch 7] Batch 600/2676 - Loss: 1.4684
+[Epoch 7] Batch 700/2676 - Loss: 0.8636
+[Epoch 7] Batch 800/2676 - Loss: 1.1980
+[Epoch 7] Batch 900/2676 - Loss: 1.6781
+[Epoch 7] Batch 1000/2676 - Loss: 0.6613
+[Epoch 7] Batch 1100/2676 - Loss: 0.0414
+[Epoch 7] Batch 1200/2676 - Loss: 0.5849
+[Epoch 7] Batch 1300/2676 - Loss: 0.3003
+[Epoch 7] Batch 1400/2676 - Loss: 0.2990
+[Epoch 7] Batch 1500/2676 - Loss: 0.9819
+[Epoch 7] Batch 1600/2676 - Loss: 1.2856
+[Epoch 7] Batch 1700/2676 - Loss: 2.8270
+[Epoch 7] Batch 1800/2676 - Loss: 1.5693
+[Epoch 7] Batch 1900/2676 - Loss: 0.2213
+[Epoch 7] Batch 2000/2676 - Loss: 0.3933
+[Epoch 7] Batch 2100/2676 - Loss: 0.4387
+[Epoch 7] Batch 2200/2676 - Loss: 0.0678
+[Epoch 7] Batch 2300/2676 - Loss: 1.0423
+[Epoch 7] Batch 2400/2676 - Loss: 0.0449
+[Epoch 7] Batch 2500/2676 - Loss: 0.6118
+[Epoch 7] Batch 2600/2676 - Loss: 1.2916
+[Epoch 7] Batch 2676/2676 - Loss: 0.0104
+[VAL] Train Loss: 0.7901
+[VAL] Accuracy@0.5:     0.6342
+[VAL] BalancedAcc@0.5:  0.5198
+[VAL] ROC-AUC:         0.5335
+[VAL] Classification report (thr=0.5):
+              precision    recall  f1-score   support
+
+         0.0     0.6924    0.8341    0.7567      7823
+         1.0     0.3662    0.2055    0.2633      3649
+
+    accuracy                         0.6342     11472
+   macro avg     0.5293    0.5198    0.5100     11472
+weighted avg     0.5886    0.6342    0.5997     11472
+
+[INFO] Saved confusion matrix to confusion_matrix_val_female_transformer_epoch7.png
+
+=== Epoch 8/8 ===
+[Epoch 8] Batch 100/2676 - Loss: 0.0569
+[Epoch 8] Batch 200/2676 - Loss: 0.2911
+[Epoch 8] Batch 300/2676 - Loss: 0.2832
+[Epoch 8] Batch 400/2676 - Loss: 0.2268
+[Epoch 8] Batch 500/2676 - Loss: 0.2235
+[Epoch 8] Batch 600/2676 - Loss: 0.1654
+[Epoch 8] Batch 700/2676 - Loss: 0.1161
+[Epoch 8] Batch 800/2676 - Loss: 0.5723
+[Epoch 8] Batch 900/2676 - Loss: 0.2563
+[Epoch 8] Batch 1000/2676 - Loss: 0.1263
+[Epoch 8] Batch 1100/2676 - Loss: 0.2150
+[Epoch 8] Batch 1200/2676 - Loss: 0.1972
+[Epoch 8] Batch 1300/2676 - Loss: 0.0726
+[Epoch 8] Batch 1400/2676 - Loss: 2.1895
+[Epoch 8] Batch 1500/2676 - Loss: 0.4301
+[Epoch 8] Batch 1600/2676 - Loss: 0.5850
+[Epoch 8] Batch 1700/2676 - Loss: 1.1451
+[Epoch 8] Batch 1800/2676 - Loss: 0.1081
+[Epoch 8] Batch 1900/2676 - Loss: 0.2875
+[Epoch 8] Batch 2000/2676 - Loss: 0.2623
+[Epoch 8] Batch 2100/2676 - Loss: 0.1741
+[Epoch 8] Batch 2200/2676 - Loss: 0.5491
+[Epoch 8] Batch 2300/2676 - Loss: 1.8886
+[Epoch 8] Batch 2400/2676 - Loss: 0.0920
+[Epoch 8] Batch 2500/2676 - Loss: 0.5743
+[Epoch 8] Batch 2600/2676 - Loss: 0.8982
+[Epoch 8] Batch 2676/2676 - Loss: 0.0052
+[VAL] Train Loss: 0.7125
+[VAL] Accuracy@0.5:     0.6526
+[VAL] BalancedAcc@0.5:  0.5225
+[VAL] ROC-AUC:         0.5547
+[VAL] Classification report (thr=0.5):
+              precision    recall  f1-score   support
+
+         0.0     0.6932    0.8801    0.7756      7823
+         1.0     0.3909    0.1650    0.2320      3649
+
+    accuracy                         0.6526     11472
+   macro avg     0.5421    0.5225    0.5038     11472
+weighted avg     0.5971    0.6526    0.6027     11472
+
+[INFO] Saved confusion matrix to confusion_matrix_val_female_transformer_epoch8.png
+
+[INFO] Loaded best model with val AUC = 0.6888
+
+[VAL] Threshold tuning on validation set (female, 10 patients)...
+[THR SWEEP] thr=0.10  acc=0.3286  bal_acc=0.5010
+[THR SWEEP] thr=0.15  acc=0.3692  bal_acc=0.5224
+[THR SWEEP] thr=0.20  acc=0.4129  bal_acc=0.5470
+[THR SWEEP] thr=0.25  acc=0.4472  bal_acc=0.5664
+[THR SWEEP] thr=0.30  acc=0.4806  bal_acc=0.5815
+[THR SWEEP] thr=0.35  acc=0.5362  bal_acc=0.6066
+[THR SWEEP] thr=0.40  acc=0.6095  bal_acc=0.6342
+[THR SWEEP] thr=0.45  acc=0.6687  bal_acc=0.6401
+[THR SWEEP] thr=0.50  acc=0.7063  bal_acc=0.6373
+[THR SWEEP] thr=0.55  acc=0.7213  bal_acc=0.6250
+[THR SWEEP] thr=0.60  acc=0.7242  bal_acc=0.6089
+[THR SWEEP] thr=0.65  acc=0.7220  bal_acc=0.5925
+[THR SWEEP] thr=0.70  acc=0.7182  bal_acc=0.5754
+[THR SWEEP] thr=0.75  acc=0.7159  bal_acc=0.5646
+[THR SWEEP] thr=0.80  acc=0.7069  bal_acc=0.5460
+[THR SWEEP] thr=0.85  acc=0.6981  bal_acc=0.5290
+[THR SWEEP] thr=0.90  acc=0.6901  bal_acc=0.5142
+[INFO] Best threshold on val: 0.450 (balanced accuracy=0.6401)
+
+[VAL] Metrics at best threshold (female, 10 patients):
+    Best threshold:          0.450
+    Accuracy:                0.6687
+    Balanced accuracy:       0.6401
+    ROC-AUC (unchanged):     0.6888
+    Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.7785    0.7187    0.7474      7823
+         1.0     0.4821    0.5615    0.5188      3649
+
+    accuracy                         0.6687     11472
+   macro avg     0.6303    0.6401    0.6331     11472
+weighted avg     0.6842    0.6687    0.6747     11472
+
+[INFO] Saved confusion matrix to confusion_matrix_val_female_transformer_best_thr.png
+
+[TEST] Evaluating on test set (female, 10 patients)...
+
+[TEST] Metrics at threshold = 0.5 (female, Transformer):
+    Accuracy:          0.5538
+    Balanced accuracy: 0.5271
+    ROC-AUC:           0.5355
+    Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.8358    0.5686    0.6768      5765
+         1.0     0.1964    0.4856    0.2797      1252
+
+    accuracy                         0.5538      7017
+   macro avg     0.5161    0.5271    0.4783      7017
+weighted avg     0.7217    0.5538    0.6059      7017
+
+[INFO] Saved confusion matrix to confusion_matrix_test_female_transformer_thr0.5.png
+
+[TEST] Metrics at best val threshold (0.450) (female, Transformer):
+    Accuracy:          0.4895
+    Balanced accuracy: 0.5227
+    ROC-AUC:           0.5355
+    Classification report:
+              precision    recall  f1-score   support
+
+         0.0     0.8359    0.4711    0.6026      5765
+         1.0     0.1908    0.5743    0.2865      1252
+
+    accuracy                         0.4895      7017
+   macro avg     0.5134    0.5227    0.4445      7017
+weighted avg     0.7208    0.4895    0.5462      7017
+
+[INFO] Saved confusion matrix to confusion_matrix_test_female_transformer_best_thr0.45.png
+Job finished at Wed Nov 26 18:42:39 MST 2025
