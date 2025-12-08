@@ -1,0 +1,21 @@
+/var/spool/slurmd/job41030784/slurm_script: line 15: --array=0-72: command not found
+
+=====================================================================
+This module is only for creating or activating Python environments:
+$ mamba create -n myenv -c conda-forge python=3 <package_name>
+$ source activate myenv
+
+Only run "pip install" after activating an environment.
+Running pip without activating an environment is known to cause issues.
+
+To list available environments:
+$ mamba info --envs
+
+Other uses are not tested. More info: https://links.asu.edu/solpy
+=====================================================================
+
+  
+Traceback (most recent call last):
+  File "/home/sshuvo13/BSPML_project_sbs_files/segmentation_30s/male_edf_segmentation/segment_edfs.py", line 44, in <module>
+    raise ValueError("Invalid or missing SLURM_ARRAY_TASK_ID")
+ValueError: Invalid or missing SLURM_ARRAY_TASK_ID

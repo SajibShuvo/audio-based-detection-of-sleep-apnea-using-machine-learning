@@ -1,0 +1,22 @@
+
+=====================================================================
+This module is only for creating or activating Python environments:
+$ mamba create -n myenv -c conda-forge python=3 <package_name>
+$ source activate myenv
+
+Only run "pip install" after activating an environment.
+Running pip without activating an environment is known to cause issues.
+
+To list available environments:
+$ mamba info --envs
+
+Other uses are not tested. More info: https://links.asu.edu/solpy
+=====================================================================
+
+  
+Traceback (most recent call last):
+  File "/scratch/sshuvo13/scratch_run_dir_sajib/PR800_whole_dataset/sbatch_framework_full_dataset_PR800/PR800_sbatch_framework_full_dataset.py", line 191, in <module>
+    main(patient_id, data_dir, label_dir, output_dir)
+  File "/scratch/sshuvo13/scratch_run_dir_sajib/PR800_whole_dataset/sbatch_framework_full_dataset_PR800/PR800_sbatch_framework_full_dataset.py", line 157, in main
+    feats['label'] = labels_subset[i] if i < len(labels_subset) else None
+TypeError: 'numpy.float32' object does not support item assignment
