@@ -27,11 +27,9 @@ All file paths reference locations in the Scratch drive in ASU Sol.
 transformer_model_jess_mods_for_speed.py generates:
 - `best_female_transformer.pt` - Best model checkpoint (based on validation AUC)
 - `dataset_metadata.npz` - Feature dimensions and dataset statistics
-- Confusion matrices for validation and test sets (PNG files)
-- Training logs with accuracy, AUC, and classification reports
 
 integrated_gradients_stacked_plots.ipynb generates:
-- Integrate gradients plots (PNG files)
+- Integrated gradients plots (PNG files)
 
 ## HPC Job Configuration
 
