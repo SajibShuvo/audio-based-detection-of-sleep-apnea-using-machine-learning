@@ -13,15 +13,6 @@ All file paths reference locations in the Scratch drive in ASU Sol.
 └── README.md
 ```
 
-## Requirements
-
-- Python 3.8+
-- PyTorch 2.1.0+ with CUDA 12.1
-- NumPy
-- scikit-learn
-- matplotlib
-- seaborn
-
 ## Outputs
 
 transformer_model_jess_mods_for_speed.py generates:
